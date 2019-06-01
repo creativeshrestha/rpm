@@ -201,17 +201,12 @@ $('body').on('click','.accordion',function(e){
 
     var name='#'+ $(this).data('name');
     console.log(name);
-    $(name).toggleClass('hidetoggle').slideToggle();
-    //$('.desktophide').hide();
+    // $('.desktophide').hide();
     //$(this).next().hide();
     // console.log(this, "this");
+    $(name).toggleClass('hidetoggle').slideToggle();
 
-    // $(this).siblings('.menu-dropdown').fadeToggle(300);
-    $('.desktophide').not($(this).siblings()).hide();
-    // e.stopPropagation();
-    // $('html').click(function() {
-    //     $('.menu-dropdown').hide();
-    // });
-
+    e.stopPropagation();
 
 });
+
