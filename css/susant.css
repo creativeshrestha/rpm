@@ -1,7 +1,10 @@
-.menuaccordian{
+.accordion{
     display:none;
 }
 
+.minusicon{
+    /*display:none;*/
+}
 
 .menuaccordian .card-header {
     font-family: vga-thin;
@@ -67,20 +70,6 @@
         width: 33.11%;
     }
 
-    .partners-review{
-        margin-bottom:30px;
-    }
-    .partners-review-companany{
-        font-weight: bold;
-    }
-
-    .desktophide{
-        display:none;
-    }
-    .menuaccordian{
-        display:block;
-    }
-
 
     .partners.message .medicalmanpower--left {
         padding-bottom: 35px;
@@ -97,12 +86,55 @@
     .desktophide{
         display:none;
     }
-    .menuaccordian{
+    .accordion{
         display:block;
     }
 }
 
-
 .togglered{
     background: #E30613!important;
+}
+
+
+
+.accordion{
+    font-family: vga-thin;
+    font-size: 16px;
+    font-size: 1em;
+    background: #787D81;
+    border-radius: 0;
+    cursor:pointer;
+    padding: .5rem .75rem;
+    width:100%;
+    border:none;
+    color: white;
+    /*display: -webkit-box;*/
+    /*display: -ms-flexbox;*/
+    /*display: flex;*/
+    /*-webkit-box-align: center;*/
+    /*-ms-flex-align: center;*/
+    /*align-items: center;*/
+    /*-webkit-box-pack: justify;*/
+    /*-ms-flex-pack: justify;*/
+    /*justify-content: space-between;*/
+    margin-bottom:2px;
+}
+.accordion:focus{
+    outline:none;
+}
+.accordion span{
+    float:left;
+}
+.accordion img {
+    float: right;
+    padding-top: 8px;
+    width: 12px; }
+
+.hidetoggle{
+    display: none;
+}
+
+@media screen and (max-width:426px){
+
+
 }
