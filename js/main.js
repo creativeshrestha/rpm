@@ -62,3 +62,14 @@ $(window).scroll(function() {
         }
     });
 }).scroll();
+
+
+$('body').on('click','.dropdown-icon',function(e){
+    // $(this).parent().find('.menu-dropdown').fadeToggle(300);
+    $('#megamenu').fadeToggle(300);
+    // $('.menu-dropdown').not($(this).siblings()).hide();
+    e.stopPropagation();
+    $('html').click(function() {
+        $('.menu-dropdown').hide();
+    });
+});

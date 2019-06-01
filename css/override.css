@@ -46,7 +46,7 @@ header{
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, 0) rotate(135deg);x
+    transform: translate(-50%, 0) rotate(135deg);
     background: #aeafb1;
     padding: 15px;
     border-radius: 50px;
