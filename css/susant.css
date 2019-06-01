@@ -1,3 +1,8 @@
+.menuaccordian{
+    display:none;
+}
+
+
 .menuaccordian .card-header {
     font-family: vga-thin;
     font-size: 16px;
@@ -41,15 +46,10 @@
         background-size: cover;
         padding: 0; }
     .message-banner {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
         flex-direction:column;
-
     }
     .message-title{
         width:100%;
-
     }
     .message-banner--left {
         -webkit-box-flex: 2;
@@ -61,9 +61,21 @@
         margin-top: calc(50% - 221px) !important;
         padding-top: 40px;}
 
+    .partners .partnerslogos .partnerlogo {
+        width: 33.11%;
+    }
 
-}
+    .partners-review{
+        margin-bottom:30px;
+    }
+    .partners-review-companany{
+        font-weight: bold;
+    }
 
-.desktophide{
-    display:none;
+    .desktophide{
+        display:none;
+    }
+    .menuaccordian{
+        display:block;
+    }
 }

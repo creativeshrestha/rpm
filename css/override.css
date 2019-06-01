@@ -24,7 +24,7 @@ header{
     right: 0;
 }
 
-.megamenu{
+#megamenu{
     position: fixed;
     background: rgb(3,43,95);
     background: -moz-linear-gradient(90deg, rgba(3,43,95,1) 0%, rgba(0,72,146,1) 100%);
@@ -34,8 +34,16 @@ header{
     z-index: 2;
 }
 
+.megamenu{
+    background: rgb(3,43,95);
+    background: -moz-linear-gradient(90deg, rgba(3,43,95,1) 0%, rgba(0,72,146,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(3,43,95,1) 0%, rgba(0,72,146,1) 100%);
+    background: linear-gradient(90deg, rgba(3,43,95,1) 0%, rgba(0,72,146,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#032b5f",endColorstr="#004892",GradientType=1);
+}
+
 @media (max-width: 768px) {
-    .megamenu{
+    #megamenu{
         overflow-y: scroll;
     }
 }
@@ -315,6 +323,22 @@ header{
     left: -94px;
 }
 
+
+/* footer */
+@media (max-width: 767px) {
+    .footer .megamenu--left {
+        display: none;
+    }
+
+    .footer .pdf-detail span{
+        color: white;
+    }
+
+    .card{
+        border-left: 0;
+        border-right: 0;
+    }
+}
 
 /* responsive */
 
