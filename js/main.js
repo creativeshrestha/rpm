@@ -22,31 +22,136 @@ function myDeviceFunction() {
 // });
 
 $(window).on('load', function() {
-    // var headerHeight = $(".header").height();
-    // var heightMain = $(window).height() - headerHeight ;
-    // $(".isotopebanner").css({height: heightMain});
+    var headerHeight = $(".header").height();
+    var heightMain = $(window).height() - headerHeight ;
 
+    if ($(window).width() < 768) {
+        $(".isotopebanner").css({height: heightMain});
+        $(".megamenu").css({maxHeight: heightMain});
+
+    }
 });
 
 
 $(document).ready(function() {
 
 
+    // click to scroll navigation
+    function hidenav(){
+        $('#megamenu').hide();
+        $('.navbtn').removeClass('active');
+    }
 
-
-
-
-    // click to scroll div atGlance
     $('a[href*="#atGlance"]').on('click', function (e) {
         var ccHeight = $("header").height();
         e.preventDefault();
         $('html, body').animate({
             scrollTop: $("#atGlance").offset().top - ccHeight
         }, 500, 'linear');
-
-        $('#megamenu').hide();
-        $('.navbtn').removeClass('active');
+        hidenav();
     });
+
+    $('a[href*="#messageChairman"]').on('click', function (e) {
+        var ccHeight = $("header").height();
+        e.preventDefault();
+        $('html, body').animate({
+            scrollTop: $("#messageChairman").offset().top - ccHeight
+        }, 500, 'linear');
+        hidenav();
+    });
+
+    $('a[href*="#messageCEO"]').on('click', function (e) {
+        var ccHeight = $("header").height();
+        e.preventDefault();
+        $('html, body').animate({
+            scrollTop: $("#messageCEO").offset().top - ccHeight
+        }, 500, 'linear');
+        hidenav();
+    });
+
+    $('a[href*="#partners"]').on('click', function (e) {
+        var ccHeight = $("header").height();
+        e.preventDefault();
+        $('html, body').animate({
+            scrollTop: $("#partners").offset().top - ccHeight
+        }, 500, 'linear');
+        hidenav();
+    });
+
+    $('a[href*="#medicalServices"]').on('click', function (e) {
+        var ccHeight = $("header").height();
+        e.preventDefault();
+        $('html, body').animate({
+            scrollTop: $("#medicalServices").offset().top - ccHeight
+        }, 500, 'linear');
+        hidenav();
+    });
+
+    $('a[href*="#manpowerServices"]').on('click', function (e) {
+        var ccHeight = $("header").height();
+        e.preventDefault();
+        $('html, body').animate({
+            scrollTop: $("#manpowerServices").offset().top - ccHeight
+        }, 500, 'linear');
+        hidenav();
+    });
+
+    $('a[href*="#emergencyServices"]').on('click', function (e) {
+        var ccHeight = $("header").height();
+        e.preventDefault();
+        $('html, body').animate({
+            scrollTop: $("#emergencyServices").offset().top - ccHeight
+        }, 500, 'linear');
+        hidenav();
+    });
+
+    $('a[href*="#supportEvent"]').on('click', function (e) {
+        var ccHeight = $("header").height();
+        e.preventDefault();
+        $('html, body').animate({
+            scrollTop: $("#supportEvent").offset().top - ccHeight
+        }, 500, 'linear');
+        hidenav();
+    });
+
+    $('a[href*="#schoolHealthcare"]').on('click', function (e) {
+        var ccHeight = $("header").height();
+        e.preventDefault();
+        $('html, body').animate({
+            scrollTop: $("#schoolHealthcare").offset().top - ccHeight
+        }, 500, 'linear');
+        hidenav();
+    });
+
+    $('a[href*="#healthServices"]').on('click', function (e) {
+        var ccHeight = $("header").height();
+        e.preventDefault();
+        $('html, body').animate({
+            scrollTop: $("#healthServices").offset().top - ccHeight
+        }, 500, 'linear');
+        hidenav();
+    });
+
+    $('a[href*="#facilitiesManagement"]').on('click', function (e) {
+        var ccHeight = $("header").height();
+        e.preventDefault();
+        $('html, body').animate({
+            scrollTop: $("#facilitiesManagement").offset().top - ccHeight
+        }, 500, 'linear');
+        hidenav();
+    });
+
+    $('a[href*="#mobileClinics"]').on('click', function (e) {
+        var ccHeight = $("header").height();
+        e.preventDefault();
+        $('html, body').animate({
+            scrollTop: $("#mobileClinics").offset().top - ccHeight
+        }, 500, 'linear');
+        hidenav();
+    });
+
+
+
 
 });
 
