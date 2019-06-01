@@ -54,6 +54,10 @@ header{
     margin-bottom: 3%;
 }
 
+.rounded-card--inner span{
+    font-weight: bold;
+}
+
 #atGlance{
     background: rgb(4,44,96);
     background: -moz-linear-gradient(90deg, rgba(4,44,96,1) 0%, rgba(0,72,146,1) 100%);
@@ -256,9 +260,13 @@ header{
 
 /* */
 
-.onsitemedical .rounded-card--inner{
+#medicalServices .rounded-card--inner,
+#schoolHealthcare .rounded-card--inner,
+#facilitiesManagement .rounded-card--inner,
+#emergencyServices .rounded-card--inner{
     align-items: flex-start;
 }
+
 
 .onsitemedical .gridwrapper.bluebg.onsite .first-grid{
     padding: 20px 35px;
@@ -340,6 +348,24 @@ header{
     }
 }
 
+@media (min-width: 769px) {
+
+    .footer  .mobile_menu{
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+    .desktop_menu {
+        display: none;
+    }
+
+    .footer .mobile_menu{
+        display: block;
+        position: relative;
+    }
+
+}
+
 /* responsive */
 
 @media (max-width: 767px){
@@ -357,4 +383,125 @@ header{
         height: 60px;
     }
 
+}
+
+.isotopebanner {
+    padding: 40px 0;
+    background: url("../images/grey-bg.png") no-repeat;
+    background-size: cover; }
+.isotopebanner .grid {
+    position: relative;
+    height: 750px; }
+.isotopebanner .grid__item {
+    margin-bottom: 20px;
+    position: absolute;
+    bottom: 0;
+    right: 0; }
+.isotopebanner .iso-1 {
+    top: 0;
+    left: 11.8%; }
+.isotopebanner .iso-2 {
+    left: 24.5%;
+    top: 12%; }
+.isotopebanner .iso-3 {
+    left: 46.5%;
+    top: 12%; }
+.isotopebanner .iso-4 {
+    left: 63.5%;
+    top: 0; }
+.isotopebanner .iso-5 {
+    top: 12%;
+    right: 0; }
+.isotopebanner .iso-6 {
+    left: 38%;
+    top: 30%;}
+.isotopebanner .iso-7 {
+    left: 51%;
+    top: 30%; }
+.isotopebanner .iso-8 {
+    left: 64%;
+    top: 30%; }
+.isotopebanner .iso-9 {
+    left: 11.8%;
+    top: 47%;
+}
+.isotopebanner .iso-10 {
+    left: 25%;
+
+    top: 46.5%;}
+.isotopebanner .iso-11 {
+    left: 50%;
+    top: 46.5%; }
+.isotopebanner .iso-12 {
+    left: 0;
+    top: 66%; }
+.isotopebanner .iso-13 {
+    left: 50%;
+    top: 63.5%; }
+.isotopebanner .iso-14 {
+    left: 75%;
+    top: 63.5% }
+.isotopebanner .iso-15 {
+    left: 11.8%;
+    bottom: 37px; }
+.isotopebanner .iso-16 {
+    left: 37%;
+    bottom: 37px; }
+.isotopebanner .iso-17 {
+    right: 0;
+    bottom: 37px; }
+.isotopebanner .iso-18 {
+    left: 0;
+    top: 22%; }
+.isotopebanner .grid__item {
+    overflow: hidden; }
+.isotopebanner .grid__item.anticlock-br {
+    border-radius: 0 25px 0 25px; }
+.isotopebanner .grid__item.clock-br {
+    border-radius: 25px 0 25px 0; }
+.isotopebanner .grid__item.red {
+    background: #E30613; }
+.isotopebanner .grid__item.blue {
+    background: #004891; }
+.isotopebanner .grid__item.text-grid {
+    padding: 20px;
+    font-family: vga-thin;
+    font-size: 43px;
+    font-size: 2.6875em;
+    color: white;
+    line-height: 43px; }
+.isotopebanner .grid__item-1 {
+    height: 115px;
+    width: 130px; }
+.isotopebanner .grid__item-2 {
+    height: 125px;
+    width: 235px;
+    border-radius: 0 25px 0 25px; }
+.isotopebanner .grid__item-3 {
+    height: 147px;
+    width: 178px;
+    border-radius: 0 25px 0 25px; }
+.isotopebanner .grid__item-4 {
+    height: 187px;
+    width: 262px;
+    border-radius: 0 25px 0 25px; }
+.isotopebanner .grid__item-5 {
+    height: 251px;
+    width: 492px;
+    border-radius: 0 25px 0 25px; }
+.isotopebanner .grid__item-6 {
+    height: 115px;
+    width: 133px;
+    border-radius: 0 25px 0 25px; }
+.isotopebanner .grid__item-7 {
+    height: 220px;
+    width: 264px;
+    border-radius: 0 25px 0 25px; }
+.isotopebanner .grid__item--width2 {
+    width: 66%; }
+.isotopebanner .grid__item img {
+    display: block;
+    max-width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
 }

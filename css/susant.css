@@ -71,13 +71,6 @@
     }
 
 
-    .partners-review{
-        margin-bottom:30px;
-    }
-    .partners-review-companany{
-        font-weight: bold;
-    }
-
     .partners.message .medicalmanpower--left {
         padding-bottom: 35px;
     }
@@ -97,7 +90,6 @@
         display:block;
     }
 }
-
 
 .togglered{
     background: #E30613!important;
@@ -146,4 +138,3 @@
 
 
 }
-

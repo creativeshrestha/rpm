@@ -35,6 +35,10 @@ $(window).on('load', function() {
 
 $(document).ready(function() {
 
+    $('#atGlance .rounded-card--inner span').counterUp({
+        delay: 10,
+        time: 1000
+    });
 
     // click to scroll navigation
     function hidenav(){
