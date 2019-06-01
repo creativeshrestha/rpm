@@ -41,15 +41,10 @@
         background-size: cover;
         padding: 0; }
     .message-banner {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
         flex-direction:column;
-
     }
     .message-title{
         width:100%;
-
     }
     .message-banner--left {
         -webkit-box-flex: 2;
@@ -60,6 +55,18 @@
         width: 100%;
         margin-top: calc(50% - 221px) !important;
         padding-top: 40px;}
+
+    .partners .partnerslogos .partnerlogo {
+        width: 33.11%;
+    }
+
+    .partners-review{
+        margin-bottom:30px;
+    }
+    .partners-review-companany{
+        font-weight: bold;
+    }
+
 
 
 }
