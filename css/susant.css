@@ -1,4 +1,7 @@
+<<<<<<< HEAD
+=======
 
+>>>>>>> 1983aa8c836aa536e6a39f5f7a5e20cac4bc2031
 .menuaccordian{
     display:none;
 }
@@ -67,6 +70,23 @@
     .partners .partnerslogos .partnerlogo {
         width: 33.11%;
     }
+<<<<<<< HEAD
+
+    .partners-review{
+        margin-bottom:30px;
+    }
+    .partners-review-companany{
+        font-weight: bold;
+    }
+
+    .desktophide{
+        display:none;
+    }
+    .menuaccordian{
+        display:block;
+    }
+}
+=======
 
     .partners-review{
         margin-bottom:30px;
@@ -99,3 +119,4 @@
 .togglered{
     background: #E30613!important;
 }
+>>>>>>> 1983aa8c836aa536e6a39f5f7a5e20cac4bc2031
