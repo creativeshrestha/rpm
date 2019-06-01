@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="709ac0f1-8135-47f7-bc88-cea075e744bc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/override.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/override.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/app.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/app.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,17 +17,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="794">
-              <caret line="208" selection-start-line="208" selection-end-line="208" />
+            <state relative-caret-position="289">
+              <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://G:/kmc/output/js/app.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://G:/kmc/output/js/app.min.js">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state>
+              <folding>
+                <element signature="e#4232#4236#0" expanded="true" />
+                <element signature="e#4236#4240#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -35,8 +47,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/app.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+            <state relative-caret-position="85">
+              <caret line="5" column="38" lean-forward="true" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -44,27 +56,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="202" column="61" selection-start-line="202" selection-start-column="61" selection-end-line="202" selection-end-column="61" />
-              <caret line="352" column="61" selection-start-line="352" selection-start-column="61" selection-end-line="352" selection-end-column="61" />
-              <caret line="431" column="61" selection-start-line="431" selection-start-column="61" selection-end-line="431" selection-end-column="61" />
-              <caret line="511" column="53" selection-start-line="511" selection-start-column="53" selection-end-line="511" selection-end-column="53" />
-              <caret line="712" column="53" selection-start-line="712" selection-start-column="53" selection-end-line="712" selection-end-column="53" />
-              <caret line="774" column="53" selection-start-line="774" selection-start-column="53" selection-end-line="774" selection-end-column="53" />
-              <caret line="844" column="53" selection-start-line="844" selection-start-column="53" selection-end-line="844" selection-end-column="53" />
-              <caret line="913" column="53" selection-start-line="913" selection-start-column="53" selection-end-line="913" selection-end-column="53" />
-              <caret line="976" column="53" selection-start-line="976" selection-start-column="53" selection-end-line="976" selection-end-column="53" />
-              <caret line="1043" column="53" selection-start-line="1043" selection-start-column="53" selection-end-line="1043" selection-end-column="53" />
-              <caret line="1116" column="53" selection-start-line="1116" selection-start-column="53" selection-end-line="1116" selection-end-column="53" />
-              <caret line="1181" column="53" selection-start-line="1181" selection-start-column="53" selection-end-line="1181" selection-end-column="53" />
+            <state relative-caret-position="209">
+              <caret line="1003" column="25" selection-start-line="1003" selection-start-column="25" selection-end-line="1003" selection-end-column="25" />
               <folding>
-                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#button#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#button#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#button#3;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#div#15;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#14;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -73,7 +68,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1094">
+            <state relative-caret-position="890">
               <caret line="172" column="26" lean-forward="true" selection-start-line="172" selection-start-column="26" selection-end-line="172" selection-end-column="26" />
               <folding>
                 <element signature="e#5768#5862#0" />
@@ -85,8 +80,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/susant.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="505">
-              <caret line="137" lean-forward="true" selection-start-line="137" selection-end-line="137" />
+            <state relative-caret-position="-175">
+              <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
             </state>
           </provider>
         </entry>
@@ -95,8 +90,11 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&gt;&gt;</find>
+      <find>&lt;&lt;</find>
     </findStrings>
+    <dirStrings>
+      <dir>C:\Users\susant\Desktop\rpm</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -104,20 +102,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/css/susant.css" />
-        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/js/app.min.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="G:/kmc/output/js/app.min.js" />
+        <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
       </list>
     </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="330" />
-    <option name="y" value="40" />
-    <option name="width" value="1495" />
-    <option name="height" value="1015" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -178,12 +170,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559377136912</updated>
-      <workItem from="1559377140271" duration="20386000" />
+      <workItem from="1559377140271" duration="20725000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2746000" />
+    <option name="totallyTimeSpent" value="145000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -209,9 +201,30 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/kmc/output/js/app.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/susant.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-175">
+          <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1094">
+        <state relative-caret-position="890">
           <caret line="172" column="26" lean-forward="true" selection-start-line="172" selection-start-column="26" selection-end-line="172" selection-end-column="26" />
           <folding>
             <element signature="e#5768#5862#0" />
@@ -219,72 +232,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/override.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1501">
-          <caret line="101" column="49" selection-start-line="101" selection-start-column="49" selection-end-line="101" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="49" selection-end-line="229" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="794">
-          <caret line="208" selection-start-line="208" selection-end-line="208" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/susant.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="137" lean-forward="true" selection-start-line="137" selection-end-line="137" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="202" column="61" selection-start-line="202" selection-start-column="61" selection-end-line="202" selection-end-column="61" />
-          <caret line="352" column="61" selection-start-line="352" selection-start-column="61" selection-end-line="352" selection-end-column="61" />
-          <caret line="431" column="61" selection-start-line="431" selection-start-column="61" selection-end-line="431" selection-end-column="61" />
-          <caret line="511" column="53" selection-start-line="511" selection-start-column="53" selection-end-line="511" selection-end-column="53" />
-          <caret line="712" column="53" selection-start-line="712" selection-start-column="53" selection-end-line="712" selection-end-column="53" />
-          <caret line="774" column="53" selection-start-line="774" selection-start-column="53" selection-end-line="774" selection-end-column="53" />
-          <caret line="844" column="53" selection-start-line="844" selection-start-column="53" selection-end-line="844" selection-end-column="53" />
-          <caret line="913" column="53" selection-start-line="913" selection-start-column="53" selection-end-line="913" selection-end-column="53" />
-          <caret line="976" column="53" selection-start-line="976" selection-start-column="53" selection-end-line="976" selection-end-column="53" />
-          <caret line="1043" column="53" selection-start-line="1043" selection-start-column="53" selection-end-line="1043" selection-end-column="53" />
-          <caret line="1116" column="53" selection-start-line="1116" selection-start-column="53" selection-end-line="1116" selection-end-column="53" />
-          <caret line="1181" column="53" selection-start-line="1181" selection-start-column="53" selection-end-line="1181" selection-end-column="53" />
+        <state relative-caret-position="209">
+          <caret line="1003" column="25" selection-start-line="1003" selection-start-column="25" selection-end-line="1003" selection-end-column="25" />
           <folding>
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#button#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#button#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#button#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#15;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#14;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/app.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+        <state relative-caret-position="85">
+          <caret line="5" column="38" lean-forward="true" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://G:/kmc/output/js/app.min.js">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state>
+          <folding>
+            <element signature="e#4232#4236#0" expanded="true" />
+            <element signature="e#4236#4240#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

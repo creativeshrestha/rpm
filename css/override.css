@@ -58,6 +58,11 @@ header{
     font-weight: bold;
 }
 
+
+.rounded-card--inner span em{
+    font-style: normal;
+}
+
 #atGlance{
     background: rgb(4,44,96);
     background: -moz-linear-gradient(90deg, rgba(4,44,96,1) 0%, rgba(0,72,146,1) 100%);
