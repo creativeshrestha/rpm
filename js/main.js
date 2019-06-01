@@ -35,7 +35,7 @@ $(window).on('load', function() {
 
 $(document).ready(function() {
 
-    $('#atGlance .rounded-card--inner span').counterUp({
+    $('#atGlance .rounded-card--inner span em').counterUp({
         delay: 10,
         time: 1000
     });
