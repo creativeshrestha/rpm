@@ -148,6 +148,67 @@
         background: #ffffff;
     }
 
+    /*chairman*/
+    .gridwrapper.greybg.chairman .first-grid {
+        width: 80%;
+        height: auto;
+        right: 16%;
+        top: 10%;
+        left: -3%;
+    }
+    .gridwrapper.greybg.chairman .third-grid {
+        width: 140px;
+        height: 100px;
+        bottom: 25%;
+        right: 0;
+    }
+    .gridwrapper.greybg.chairman .fourth-grid {
+display:none
+    }
+
+    .gridwrapper.greybg.chairman {
+        height: 320px;
+    }
+
+    #messageChairman .pdf-detail {
+        padding-top: 0px;
+    }
+
+    /*ceo*/
+
+    .message-name{
+        margin-top: 25px;
+    }
+    .gridwrapper.greybg.ceo {
+        height: 750px;
+        margin-top: 40px;
+    }
+    .gridwrapper.greybg.ceo .first-grid {
+        width: 60%;
+        height: 244px;
+        right: 40%;
+        bottom: 0;
+        top: 0;
+        z-index: 1;
+        background: none;
+    }
+    .gridwrapper.greybg.ceo .third-grid {
+        width: 35%;
+        height: 96px;
+        bottom: 66%;
+        right: 0;
+    }
+    .gridwrapper.greybg.ceo .fourth-grid {
+        right: 54.5%;
+        bottom: 13%;
+    }
+    .gridwrapper.greybg.ceo .fifth-grid {
+        width: 100%;
+        height: 239px;
+        bottom: 32%;
+        right: 0;
+    }
+
     /*partner*/
     .partners-review-companany{
         font-weight: bold;
