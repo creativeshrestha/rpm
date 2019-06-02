@@ -148,6 +148,56 @@
         background: #ffffff;
     }
 
+    /*glance*/
+    .message.atglance .onsitemedical--right{
+        position: relative;
+        height: 1300px;
+    }
+    .message.atglance .rounded-card--inner span{
+        font-size: 44px;
+    }
+
+    .r-1,.r-2,.r-3,.r-4,.r-5,.r-6,.r-7,.r-8{
+        width:48%;
+        position: absolute;
+        margin: 0;
+        height: auto;
+    }
+
+    .r-1{
+        top: 0;
+        left: 0;
+    }
+    .r-2{
+        top: 0;
+        right: 0;
+    }
+    .r-3{
+        top: 31%;
+        left: 0;
+    }
+    .r-4{
+        top: 17%;
+        left: 0;
+        width: 100%;
+    }
+    .r-5{
+        top: 31%;
+        right: 0;}
+    .r-6{
+        top: 49%;
+        left: 0;}
+    .r-7{
+        top: 49%;
+        right: 0;
+    }
+    .r-8{
+        top: 68%;
+        right: 0;
+        width: 100%;
+    }
+
+
     /*chairman*/
     .gridwrapper.greybg.chairman .first-grid {
         width: 80%;
