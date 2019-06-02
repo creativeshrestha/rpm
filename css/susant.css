@@ -330,7 +330,7 @@ display:none
 
     /*medical manpower*/
     .message.medicalmanpower {
-        background: white;
+        /*background: white;*/
     }
 
     #manpowerServices .gridwrapper{
