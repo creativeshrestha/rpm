@@ -91,6 +91,9 @@
     .accordion{
         display:block;
     }
+    .accordion.mobilehide{
+        display:block;
+    }
 }
 
 .togglered{
