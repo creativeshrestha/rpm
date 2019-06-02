@@ -148,7 +148,8 @@
         background: #ffffff;
     }
 
-    .partners-review-company{
+    /*partner*/
+    .partners-review-companany{
         font-weight: bold;
         margin-bottom: 20px;
         display: block;
@@ -156,15 +157,109 @@
 
     .partners .row{
         background: white;
-        padding: 40px 0 80px;
+        padding: 40px 0 60px;
         margin-bottom: -40px;
     }
+
+    /*onsite */
+
 
     .onsitemedical--right, .medicalmanpower--right {
         width: 100%;
     }
 
+    .onsitemedical .gridwrapper.bluebg.onsite .first-grid {
+        padding: 20px;
+        top: 0;
+        z-index: 1;
+    }
 
+    #medicalServices .rounded-card--inner{
+        height:32%;
+        position:relative;
+    }
+    #medicalServices .rounded-card--height1 .rounded-card--inner figure {
+        height: 50%;
+        width: auto;
+        position: absolute;
+        right: 0;
+    }
+
+    .gridwrapper.bluebg.onsite .second-grid {
+        width: 228px;
+        height: 160px;
+        bottom: 57%;
+        right: 42%;
+    }
+
+    .gridwrapper.bluebg.onsite .fifth-grid {
+        width: 100%;
+        height: auto;
+        bottom: 26%;
+        right: 0;
+    }
+    .gridwrapper.bluebg.onsite .fourth-grid {
+        width: 130px;
+        height: 120px;
+        bottom: 9%;
+        left: 52%;
+        border-radius: 0 20px;
+    }
+    .gridwrapper.bluebg.onsite .third-grid {
+        width: 200px;
+        height: 120px;
+        bottom: 9%;
+        right: 49%;
+    }
+
+    #medicalServices .gridwrapper{
+        height:800px;
+    }
+
+
+    /*medical manpower*/
+    .message.medicalmanpower {
+        background: white;
+    }
+
+    #manpowerServices .gridwrapper{
+        height:710px;
+    }
+
+    #manpowerServices .pdf-detail{
+        padding-top: 0;
+    }
+
+    .gridwrapper.greybg.manpower .first-grid {
+        width: 203px;
+        height: 263px;
+        right: 48%;
+        bottom: 0;
+        padding: 20px;
+        color: black;
+        font-weight: bold;
+        top: 0;
+    }
+    .gridwrapper.greybg.manpower .third-grid {
+        width: 254px;
+        height: 170px;
+        bottom: 40%;
+        right: 0;
+    }
+    .gridwrapper.greybg.manpower .fourth-grid {
+        right: 0%;
+        bottom: 13%;
+        width: 30%;
+        height: auto;
+    }
+    .gridwrapper.greybg.manpower .fifth-grid {
+        width: 66%;
+        height: auto;
+        bottom: 13%;
+        right: 34%;
+    }
+
+    /*mobile*/
     .gridwrapper.greybg.mobile .first-grid {
         width: 203px;
         height: 225px;
@@ -356,12 +451,19 @@
 
     #emergencyServices .pdf-detail {
         line-height: 12px;
-         padding-top: 0px;
+         padding-top: 0;
     }
+
 
     #emergencyServices .gridwrapper{
         height: 630px;
     }
+
+    /*medical manpower*/
+
+
+
+
 
     /*-----------------------------------------------*/
     .pdf-link {
