@@ -202,9 +202,10 @@
     .gridwrapper.greybg.chairman .first-grid {
         width: 80%;
         height: auto;
-        right: 16%;
+        right: 0;
         top: 10%;
-        left: -3%;
+        left: 0;
+        margin-left: 0;
     }
     .gridwrapper.greybg.chairman .third-grid {
         width: 140px;
@@ -236,11 +237,13 @@ display:none
     .gridwrapper.greybg.ceo .first-grid {
         width: 60%;
         height: 244px;
-        right: 40%;
+        right: 0;
         bottom: 0;
         top: 0;
         z-index: 1;
         background: none;
+        left: 0;
+        margin-left: 0;
     }
     .gridwrapper.greybg.ceo .third-grid {
         width: 35%;
@@ -249,8 +252,10 @@ display:none
         right: 0;
     }
     .gridwrapper.greybg.ceo .fourth-grid {
-        right: 54.5%;
+        right: 0;
         bottom: 13%;
+        left: 0;
+        margin-left: 0;
     }
     .gridwrapper.greybg.ceo .fifth-grid {
         width: 100%;
@@ -300,7 +305,9 @@ display:none
         width: 228px;
         height: 160px;
         bottom: 57%;
-        right: 42%;
+        right: 0;
+        left: 0;
+        margin-left: 0;
     }
 
     .gridwrapper.bluebg.onsite .fifth-grid {
@@ -308,11 +315,13 @@ display:none
         height: auto;
         bottom: 26%;
         right: 0;
+        left: 0;
+        margin-left: 0;
     }
     .gridwrapper.bluebg.onsite .fourth-grid {
         width: 130px;
-        height: 120px;
-        bottom: 9%;
+        height: auto;
+        bottom: 14%;
         left: 52%;
         border-radius: 0 20px;
     }
@@ -320,7 +329,9 @@ display:none
         width: 200px;
         height: 120px;
         bottom: 9%;
-        right: 49%;
+        right: 0;
+        left: 0;
+        margin-left: 0;
     }
 
     #medicalServices .gridwrapper{
@@ -344,12 +355,12 @@ display:none
     .gridwrapper.greybg.manpower .first-grid {
         width: 203px;
         height: 263px;
-        right: 48%;
+        right: 0;
         bottom: 0;
         padding: 20px;
-        color: black;
-        font-weight: bold;
         top: 0;
+        left: 0;
+        margin-left: 0;
     }
     .gridwrapper.greybg.manpower .third-grid {
         width: 254px;
@@ -367,17 +378,21 @@ display:none
         width: 66%;
         height: auto;
         bottom: 13%;
-        right: 34%;
+        right: 0;
+        left: 0;
+        margin-left: 0;
     }
 
     /*mobile*/
     .gridwrapper.greybg.mobile .first-grid {
         width: 203px;
         height: auto;
-        right: 48%;
+        right: 0;
         z-index: 1!important;
         top: 0%;
         background: none;
+        left: 0;
+        margin: 0;
     }
     .gridwrapper.greybg.mobile .fourth-grid {
         width: 153px;
@@ -403,11 +418,13 @@ display:none
     .gridwrapper.bluebg.healthcare .first-grid {
         width: 203px;
         height: 225px;
-        right: 48%;
+        right: 0;
         bottom: 62%;
         padding: 20px;
         color: white;
         font-weight: bold;
+        margin-left: 0;
+        left: 0;
     }
 
     .gridwrapper.bluebg.healthcare .third-grid {
@@ -420,15 +437,17 @@ display:none
 
     .gridwrapper.bluebg.healthcare .fifth-grid {
         width: 63%;
-        height: 266px;
-        bottom: 1%;
-        right: 37%;
+        height: auto;
+        bottom: 19%;
+        right: 0;
+        left: 0;
+        margin-left: 0;
     }
 
     .gridwrapper.bluebg.healthcare .fourth-grid {
         width: 135px;
-        height: 114px;
-        bottom: 16%;
+        height: auto;
+        bottom: 19%;
         right: 0%;
         border-radius: 0 20px;
     }
@@ -438,24 +457,28 @@ display:none
         width: 170px;
         height: 120px;
         top: 0%;
-        right: 4%;
+        right: 0;
     }
     .gridwrapper.greybg.occupation .third-grid {
         width: 100%;
         height: 242px;
         bottom: 58%;
         right: 0%;
+        left: 0;
+        margin-left: 0;
     }
     .gridwrapper.greybg.occupation .first-grid {
         width: 203px;
-        height:auto;
-        right: 49%;
+        height: auto;
+        right: 0;
         bottom: 12%;
         padding: 20px;
         color: black;
         font-weight: bold;
         z-index: 1!important;
         background: none;
+        left: 0;
+        margin-left: 0;
     }
     .gridwrapper.greybg.occupation .fifth-grid {
         width: 268px;
@@ -481,19 +504,23 @@ display:none
         border-radius: 0 20px 0 20px;
         width: 246px;
         top: 37%;
-        right: 38%;
+        right: 0;
+        left: 0;
+        margin-left: 0;
     }
     .gridwrapper.bluebg.school .fourth-grid {
-        left: -13px;
+        left: 0;
         width: 30%;
         top: 72%;
         border-radius: 0 20px;
+        margin-left: 0;
+        height:auto;
     }
     .gridwrapper.bluebg.school .fifth-grid {
         width: 65%;
-        height: 250px;
-        bottom: -3%;
+        bottom: 13%;
         right: 0;
+        height: auto;
     }
 
     /*support*/
@@ -508,24 +535,28 @@ display:none
         width: 292px;
         height: 190px;
         bottom: 64%;
-        right: 26%;
+        right: 0;
+        left: 0;
+        margin-left: 0;
     }
 
     .gridwrapper.greybg.support .fifth-grid {
         width: 80%;
-        height: 272px;
-        bottom: 30%;
+        bottom: 40%;
         right: 0;
         border-radius: 0 20px;
+        height: auto;
     }
 
     .gridwrapper.greybg.support .first-grid {
         width: 218px;
-        right: 45%;
+        right: 0;
         top: 57%;
         z-index: 1;
         background: none;
         height: 260px;
+        left: 0;
+        margin-left: 0;
     }
 
     #supportEvent .gridwrapper{
@@ -544,21 +575,25 @@ display:none
     }
     .onsitemedical .gridwrapper.bluebg.emergency .second-grid {
         border: 0;
-        right: 38%;
+        right: 0;
         top: 34%;
         width: 244px;
+        left: 0;
+        margin-left: 0;
     }
 
     .onsitemedical .gridwrapper.bluebg.emergency .fourth-grid {
-        left: -3.5%;
-        bottom: 5%;
+        left: 0;
+        bottom: 13%;
         width: 30%;
+        height: auto;
+        margin-left: 0;
     }
 
     .gridwrapper.bluebg.emergency .fifth-grid {
         width: 65%;
-        height: 250px;
-        bottom: -4%;
+        height: auto;
+        bottom: 13%;
         right: 0;
     }
 
