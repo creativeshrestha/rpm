@@ -113,15 +113,6 @@
     width:100%;
     border:none;
     color: white;
-    /*display: -webkit-box;*/
-    /*display: -ms-flexbox;*/
-    /*display: flex;*/
-    /*-webkit-box-align: center;*/
-    /*-ms-flex-align: center;*/
-    /*align-items: center;*/
-    /*-webkit-box-pack: justify;*/
-    /*-ms-flex-pack: justify;*/
-    /*justify-content: space-between;*/
     margin-bottom:2px;
 }
 .accordion:focus{
@@ -271,11 +262,106 @@
 
 
     /*school healthcare */
+    .gridwrapper.bluebg.school .first-grid {
+        right: 0;
+        width: 210px;
+        top: 0;
+        padding: 20px 35px;
+        height: auto;
+    }
+    .gridwrapper.bluebg.school .second-grid {
+        border-radius: 0 20px 0 20px;
+        width: 246px;
+        top: 37%;
+        right: 38%;
+    }
+    .gridwrapper.bluebg.school .fourth-grid {
+        left: -13px;
+        width: 30%;
+        top: 72%;
+        border-radius: 0 20px;
+    }
+    .gridwrapper.bluebg.school .fifth-grid {
+        width: 65%;
+        height: 250px;
+        bottom: -3%;
+        right: 0;
+    }
+
+    /*support*/
+    .gridwrapper.greybg.support .fourth-grid {
+        width: 139px;
+        height: 142px;
+        top: 0%;
+        right: 0;
+    }
+
+    .gridwrapper.greybg.support .third-grid {
+        width: 292px;
+        height: 190px;
+        bottom: 64%;
+        right: 26%;
+    }
+
+    .gridwrapper.greybg.support .fifth-grid {
+        width: 80%;
+        height: 272px;
+        bottom: 30%;
+        right: 0;
+        border-radius: 0 20px;
+    }
+
+    .gridwrapper.greybg.support .first-grid {
+        width: 218px;
+        right: 45%;
+        top: 57%;
+        z-index: 1;
+        background: none;
+        height: 260px;
+    }
+
+    #supportEvent .gridwrapper{
+        height: 830px;
+    }
 
 
+    /*emergency*/
+    .onsitemedical .gridwrapper.bluebg.emergency .first-grid {
+        padding: 20px 35px;
+        width: 218px;
+        right: 0;
+        top: 0;
+        padding-bottom: 25px;
+        height: calc(66% - 187px);
+    }
+    .onsitemedical .gridwrapper.bluebg.emergency .second-grid {
+        border: 0;
+        right: 38%;
+        top: 34%;
+        width: 244px;
+    }
 
+    .onsitemedical .gridwrapper.bluebg.emergency .fourth-grid {
+        left: -3.5%;
+        bottom: 5%;
+        width: 30%;
+    }
 
+    .gridwrapper.bluebg.emergency .fifth-grid {
+        width: 65%;
+        height: 250px;
+        bottom: -4%;
+        right: 0;
+    }
 
+    #emergencyServices .pdf-detail {
+        line-height: 12px;
+         padding-top: 0px;
+    }
+
+    #emergencyServices .gridwrapper{
+        height: 630px;
+    }
 
     /*-----------------------------------------------*/
     .pdf-link {
