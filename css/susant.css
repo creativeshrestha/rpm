@@ -455,6 +455,7 @@ display:none
         color: black;
         font-weight: bold;
         z-index: 1!important;
+        background: none;
     }
     .gridwrapper.greybg.occupation .fifth-grid {
         width: 268px;
