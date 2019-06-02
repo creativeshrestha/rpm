@@ -119,7 +119,9 @@
     outline:none;
 }
 .accordion span{
-    float:left;
+    float: left;
+    width: 96%;
+    text-align: left;
 }
 .accordion img {
     float: right;
@@ -131,7 +133,7 @@
 }
 
 .downicon,.minusicon{display:none}
-.minusicon.activated,.downicon.activated{display:block}
+.minusicon.activated,.downicon.activated{display: block;width: 4%;}
 
 
 @media screen and (max-width:426px){
