@@ -183,50 +183,38 @@ $(window).scroll(function() {
 //     });
 // });
 
-$('.btn-link').on('click',function(){
-    $('.card-header').removeClass('togglered');
-    var parent=$(this).parents('.card-header');
-    parent.toggleClass('togglered');
-})
-
-
-// $('.accordion').on('click',function () {
-//     var name= $(this).data('name');
-//     console.log(name);
-//     $(name).slideToggle();
+// $('.accordion').on('click',function(){
+//     $('.accordion').removeClass('togglered');
+//     $(this).toggleClass('togglered');
 // })
 
-// $('body').on('click','.accordion',function(e){
-//     // $(this).parent().find('.menu-dropdown').fadeToggle(300);
-//
-//     var name='#'+ $(this).data('name');
-//     console.log(name);
-//     $(name).toggleClass('hidetoggle').slideToggle();
-//     //$('.desktophide').hide();
-//     //$(this).next().hide();
-//     // console.log(this, "this");
-//
-//     // $(this).siblings('.menu-dropdown').fadeToggle(300);
-//     $('.desktophide').not($(this).siblings()).hide();
-//     // e.stopPropagation();
-//     // $('html').click(function() {
-//     //     $('.menu-dropdown').hide();
-//     // });
-//
-//
-// });
+
+
 
 $('.accordion').click(function(e) {
     e.preventDefault();
     var $this = $(this);
+    $('.accordion').removeClass('togglered');
+    $(this).toggleClass('togglered');
+    $('.accordion').find('.minusicon').hide();
+    $('.accordion').find('.downicon').show();
+    // if($this.find('img').hasClass('downicon')){
+    //
+    // }
 
     if ($this.next().hasClass('show')) {
+        $this.removeClass('togglered');
+
         $this.next().removeClass('show');
+        $this.find('.minusicon').hide();
+        $this.find('.downicon').show();
         $this.next().slideUp(350);
     } else {
         $this.parent().parent().find('.desktophide').removeClass('show');
         $this.parent().parent().find('.desktophide').slideUp(350);
         $this.next().toggleClass('show');
+        $this.find('.minusicon').show();
+        $this.find('.downicon').hide();
         $this.next().slideToggle(350);
 
         var ccHeight = $("header").height();
@@ -234,4 +222,5 @@ $('.accordion').click(function(e) {
             scrollTop: $(this).offset().top - ccHeight
         }, 500, 'linear');
     }
+
 });
