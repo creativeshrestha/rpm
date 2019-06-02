@@ -1,7 +1,9 @@
 .accordion.mobilehide{
     display:none;
 }
-
+.mobilehide{
+    display:none;
+}
 
 .menuaccordian .card-header {
     font-family: vga-thin;
@@ -240,9 +242,33 @@
     .gridwrapper.greybg.occupation .third-grid {
         width: 100%;
         height: 242px;
-        bottom: 51%;
+        bottom: 58%;
         right: 0%;
     }
+    .gridwrapper.greybg.occupation .first-grid {
+        width: 203px;
+        height:auto;
+        right: 49%;
+        bottom: 12%;
+        padding: 20px;
+        color: black;
+        font-weight: bold;
+        z-index: 1;
+    }
+    .gridwrapper.greybg.occupation .fifth-grid {
+        width: 268px;
+        height: 160px;
+        bottom: 36%;
+        right: 0;
+    }
+
+    #healthServices .gridwrapper{
+        height: 800px;
+    }
+
+
+    /*school healthcare */
+
 
 
 
@@ -259,5 +285,10 @@
     .pdf-detail {
         line-height: 12px;
         padding-top: 10px;
+    }
+
+    .rounded-card--inner span {
+        font-weight: bold;
+        font-size: 66px;
     }
 }
