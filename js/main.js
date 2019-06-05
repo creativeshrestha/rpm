@@ -180,31 +180,56 @@ $('.btn-link').on('click',function(){
 $('.accordion').click(function(e) {
     e.preventDefault();
     var $this = $(this);
+    $('.accordion').removeClass('togglered');
+    $(this).toggleClass('togglered');
+    $('.accordion').find('.minusicon').hide();
+    $('.accordion').find('.downicon').show();
+
+
+    var dataname=$(this).data('name');
+    var da="#"+dataname;
+    var ccHeight = $("header").height() + $(this).height() + 15;
+
+    setTimeout(function() {
+        $('html,body').animate({
+            scrollTop: $(da).offset().top - ccHeight
+        }, 500, 'linear');
+    }, 500);
+
+
 
     if ($this.next().hasClass('show')) {
+        $this.removeClass('togglered');
+
         $this.next().removeClass('show');
+        $this.find('.minusicon').hide();
+        $this.find('.downicon').show();
         $this.next().slideUp(350);
-        $this.removeClass('active');
+
+        // console.log(ccHeight);
+
+
     } else {
         $this.parent().parent().find('.desktophide').removeClass('show');
-        $this.parent().parent().find('.accordion').removeClass('active');
         $this.parent().parent().find('.desktophide').slideUp(350);
         $this.next().toggleClass('show');
+        $this.find('.minusicon').show();
+        $this.find('.downicon').hide();
         $this.next().slideToggle(350);
-        $this.toggleClass('active');
+        // $this.toggleClass('active');
     }
 
-    var ccHeight = $("header").height();
+
     // $('html,body').animate({
     //     scrollTop: $(this).offset().top - ccHeight
     // }, 500, 'linear');
     // return false;
 
-    var scrollTop = $(".desktophide").scrollTop();
-    var top = $('.accordion').offset().top;
-    $("html,body").animate({
-        scrollTop: scrollTop + top - ccHeight
-    }, "fast");
+    // var scrollTop = $(".desktophide").scrollTop();
+    // var top = $('.accordion').offset().top;
+    // $("html,body").animate({
+    //     scrollTop: scrollTop + top - ccHeight
+    // }, "fast");
 
 
 });
