@@ -1,18 +1,69 @@
 /* header */
+body {
+    line-height: 1.4;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
 
-img{
+img {
     height: auto;
 }
 
-.pdf-link{
+.header--left{
+    margin-top: 5%;
+}
+
+#atGlance .rounded-card--inner figure {
+    width: auto;
+    min-height: 50px;
+    height: 120px;
+}
+
+#atGlance .onsitemedical .rounded-card--inner img {
+    max-width: 75px;
+}
+
+#atGlance .rounded-card.item4 img {
+    width: 200px;
+}
+
+/*.onsitemedical .rounded-card--inner img {*/
+    /*max-width: 80px;*/
+/*}*/
+
+#atGlance.onsitemedical .rounded-card--inner img {
+    width: 85px;
+    max-width: 85px;
+}
+
+#atGlance.onsitemedical .item4 .rounded-card--inner img{
+    width: 110px;
+    max-width: 110px;
+    margin-top: -42%;
+}
+
+
+@media (max-width: 768px){
+    #atGlance.onsitemedical .item4 .rounded-card--inner img{
+        margin-top: 0;
+    }
+}
+
+#atGlance.onsitemedical .item8 .rounded-card--inner img{
+    width: 120px;
+    max-width: 120px;
+}
+
+.pdf-link {
     width: 100%;
 }
 
-.pdf-detail{
+.pdf-detail {
     line-height: 12px;
+    font-family: 'Gotham', sans-serif;
 }
 
-header{
+header {
     height: 140px;
     position: fixed;
     z-index: 9999;
@@ -20,83 +71,85 @@ header{
     width: 100%;
     top: 0;
     position: fixed;
-    position: sticky;
     right: 0;
 }
 
-#megamenu{
+#megamenu {
     position: fixed;
-    background: rgb(3,43,95);
-    background: -moz-linear-gradient(90deg, rgba(3,43,95,1) 0%, rgba(0,72,146,1) 100%);
-    background: -webkit-linear-gradient(90deg, rgba(3,43,95,1) 0%, rgba(0,72,146,1) 100%);
-    background: linear-gradient(90deg, rgba(3,43,95,1) 0%, rgba(0,72,146,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#032b5f",endColorstr="#004892",GradientType=1);
-    z-index: 2;
+    background: rgb(3, 43, 95);
+    background: -moz-linear-gradient(90deg, rgba(3, 43, 95, 1) 0%, rgba(0, 72, 146, 1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(3, 43, 95, 1) 0%, rgba(0, 72, 146, 1) 100%);
+    background: linear-gradient(90deg, rgba(3, 43, 95, 1) 0%, rgba(0, 72, 146, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#032b5f", endColorstr="#004892", GradientType=1);
+    z-index: 3;
 }
 
-.megamenu{
-    background: rgb(3,43,95);
-    background: -moz-linear-gradient(90deg, rgba(3,43,95,1) 0%, rgba(0,72,146,1) 100%);
-    background: -webkit-linear-gradient(90deg, rgba(3,43,95,1) 0%, rgba(0,72,146,1) 100%);
-    background: linear-gradient(90deg, rgba(3,43,95,1) 0%, rgba(0,72,146,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#032b5f",endColorstr="#004892",GradientType=1);
+.megamenu {
+    background: rgb(3, 43, 95);
+    background: -moz-linear-gradient(90deg, rgba(3, 43, 95, 1) 0%, rgba(0, 72, 146, 1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(3, 43, 95, 1) 0%, rgba(0, 72, 146, 1) 100%);
+    background: linear-gradient(90deg, rgba(3, 43, 95, 1) 0%, rgba(0, 72, 146, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#032b5f", endColorstr="#004892", GradientType=1);
 }
 
 @media (max-width: 768px) {
-    #megamenu{
+    #megamenu {
         overflow-y: scroll;
+        height: 100%;
     }
 }
 
-.atGlance{
+.atGlance {
     position: relative;
     display: block;
     margin-bottom: 3%;
 }
 
-.rounded-card--inner span{
-    font-weight: bold;
+.rounded-card--inner span {
+    font-weight: normal;
 }
 
-
-.rounded-card--inner span em{
+.rounded-card--inner span em {
+    font-weight: bold;
     font-style: normal;
 }
 
-#atGlance{
-    background: rgb(4,44,96);
-    background: -moz-linear-gradient(90deg, rgba(4,44,96,1) 0%, rgba(0,72,146,1) 100%);
-    background: -webkit-linear-gradient(90deg, rgba(4,44,96,1) 0%, rgba(0,72,146,1) 100%);
-    background: linear-gradient(90deg, rgba(4,44,96,1) 0%, rgba(0,72,146,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#042c60",endColorstr="#004892",GradientType=1);
+#atGlance {
+    background: rgb(4, 44, 96);
+    background: -moz-linear-gradient(90deg, rgba(4, 44, 96, 1) 0%, rgba(0, 72, 146, 1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(4, 44, 96, 1) 0%, rgba(0, 72, 146, 1) 100%);
+    background: linear-gradient(90deg, rgba(4, 44, 96, 1) 0%, rgba(0, 72, 146, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#042c60", endColorstr="#004892", GradientType=1);
 }
 
-#messageChairman{
-    background: rgb(50,109,167);
-    background: -moz-linear-gradient(90deg, rgba(50,109,167,1) 0%, rgba(51,97,147,1) 100%);
-    background: -webkit-linear-gradient(90deg, rgba(50,109,167,1) 0%, rgba(51,97,147,1) 100%);
-    background: linear-gradient(90deg, rgba(50,109,167,1) 0%, rgba(51,97,147,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#326da7",endColorstr="#336193",GradientType=1);
+#messageChairman {
+    background: rgb(50, 109, 167);
+    background: -moz-linear-gradient(90deg, rgba(50, 109, 167, 1) 0%, rgba(51, 97, 147, 1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(50, 109, 167, 1) 0%, rgba(51, 97, 147, 1) 100%);
+    background: linear-gradient(90deg, rgba(50, 109, 167, 1) 0%, rgba(51, 97, 147, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#326da7", endColorstr="#336193", GradientType=1);
 }
 
-#messageCEO{
-    background: rgb(0,72,146);
-    background: -moz-linear-gradient(90deg, rgba(0,72,146,1) 0%, rgba(3,43,95,1) 100%);
-    background: -webkit-linear-gradient(90deg, rgba(0,72,146,1) 0%, rgba(3,43,95,1) 100%);
-    background: linear-gradient(90deg, rgba(0,72,146,1) 0%, rgba(3,43,95,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#004892",endColorstr="#032b5f",GradientType=1);
-}
-#medicalServices, #emergencyServices, #schoolHealthcare, #facilitiesManagement{
-    background: rgb(4,44,96);
-    background: -moz-linear-gradient(120deg, rgba(4,44,96,1) 0%, rgba(0,72,146,1) 100%);
-    background: -webkit-linear-gradient(120deg, rgba(4,44,96,1) 0%, rgba(0,72,146,1) 100%);
-    background: linear-gradient(120deg, rgba(4,44,96,1) 0%, rgba(0,72,146,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#042c60",endColorstr="#004892",GradientType=1);
+#messageCEO {
+    background: rgb(0, 72, 146);
+    background: -moz-linear-gradient(90deg, rgba(0, 72, 146, 1) 0%, rgba(3, 43, 95, 1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(0, 72, 146, 1) 0%, rgba(3, 43, 95, 1) 100%);
+    background: linear-gradient(90deg, rgba(0, 72, 146, 1) 0%, rgba(3, 43, 95, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#004892", endColorstr="#032b5f", GradientType=1);
 }
 
-.message-detail.bg-grey{
+#medicalServices, #emergencyServices, #schoolHealthcare, #facilitiesManagement {
+    background: rgb(4, 44, 96);
+    background: -moz-linear-gradient(120deg, rgba(4, 44, 96, 1) 0%, rgba(0, 72, 146, 1) 100%);
+    background: -webkit-linear-gradient(120deg, rgba(4, 44, 96, 1) 0%, rgba(0, 72, 146, 1) 100%);
+    background: linear-gradient(120deg, rgba(4, 44, 96, 1) 0%, rgba(0, 72, 146, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#042c60", endColorstr="#004892", GradientType=1);
+}
+
+.message-detail.bg-grey {
     background: #e9e9e9;
 }
+
 .arrow {
     width: 50px;
     height: 50px;
@@ -105,10 +158,13 @@ header{
     left: 50%;
     top: 50%;
     transform: translate(-50%, 0) rotate(135deg);
-    background: #aeafb1;
+    background: transparent !important;
     padding: 15px;
     border-radius: 50px;
+    margin-top: 1%;
+    cursor: pointer;
 }
+
 .arrow:before {
     content: '';
     width: 100%;
@@ -121,8 +177,7 @@ header{
     transform-origin: 100% 0;
     margin-top: 3px;
     margin-left: -3px;
- }
-
+}
 
 .arrow:after {
     content: '';
@@ -139,39 +194,46 @@ header{
     margin-left: -3px;
 }
 
-.arrow:hover{
+.arrow:hover {
     cursor: pointer;
 }
 
-@media (max-width: 768px){
-    .atGlance{
+@media (max-width: 768px) {
+    .atGlance {
         display: none;
     }
 }
+
 @media (min-width: 769px) {
 
-    .isotopemegamen .mobile_menu{
+    .isotopemegamen .mobile_menu {
         display: none;
     }
 }
+
 @media (max-width: 768px) {
     .desktop_menu {
         display: none;
     }
 
-    .isotopemegamen .mobile_menu{
+    .isotopemegamen .mobile_menu {
         display: block;
         position: relative;
     }
 
 }
 
-
-
 /* main banner */
 
-.isotopebanner{
+.isotopebanner {
     background: #e4e4e6;
+}
+
+@media (max-width: 767px){
+    .isotopebanner{
+        background: white;
+        padding-top: 20px;
+    }
 }
 
 @media (min-width: 769px) {
@@ -180,6 +242,7 @@ header{
         display: none;
     }
 }
+
 @media (max-width: 768px) {
     .desktop_banner {
         display: none;
@@ -193,74 +256,65 @@ header{
 }
 
 @media (max-width: 420px) {
-    .mobile_banner {
-        margin-top: 16%;
-    }
-}
-
-
-@media (max-width: 320px) {
-    .mobile_banner {
-        margin-top: 10%;
-    }
-
-    .header .nav--name{
+    .header .nav--name {
         font-size: 14px;
     }
 }
+
 /* atglance */
-.rounded-card.white, .rounded-card-1{
+.rounded-card.white, .rounded-card-1 {
     border: 1px solid #7c85a2;
 }
 
 /* */
 
-.rounded-card.blue, .rounded-card.red{
+.rounded-card.blue, .rounded-card.red {
     border-width: 1px;
 }
 
 /* */
-.gridwrapper.greybg.ceo .third-grid{
+.gridwrapper.greybg.ceo .third-grid {
     bottom: 45%;
 }
 
-.gridwrapper.greybg.ceo .fifth-grid{
+.gridwrapper.greybg.ceo .fifth-grid {
     width: 304px;
 }
 
-.gridwrapper.greybg.ceo .fourth-grid{
-    right: 58.5%;
+.gridwrapper.greybg.ceo .fourth-grid {
+    right: 64.5%;
 }
 
 /* */
 
-.message-detail.bg-grey{
+.message-detail.bg-grey {
     background: #e4e4e6;
 }
 
 /* */
-.message.medicalmanpower{
+.message.medicalmanpower {
     background: #e5e5e5;
+    border-top: 1px solid white;
 }
 
-.partners .partnerslogos .partnerlogo{
-    width:  11.11%;
+.partners .partnerslogos .partnerlogo {
+    width: 11.11%;
     display: flex;
     height: 98px;
 }
 
-.partners .partners-title:before, .partners .partners-title:after{
+.partners .partners-title:before, .partners .partners-title:after {
     background: #b8b8b8;
 }
 
 /* */
 
-.gridwrapper.bluebg.onsite .second-grid{
-    border-radius: 0 20px 0 20px;
+.gridwrapper.bluebg.onsite .second-grid {
+    border-radius: 0 25px 0 25px;
 }
 
-.gridwrapper.bluebg.onsite .fifth-grid{
-    border-radius: 0 20px 0 20px;
+.gridwrapper.bluebg.onsite .fifth-grid {
+    border-radius: 0 25px 0 25px;
 }
 
 /* */
@@ -268,28 +322,27 @@ header{
 #medicalServices .rounded-card--inner,
 #schoolHealthcare .rounded-card--inner,
 #facilitiesManagement .rounded-card--inner,
-#emergencyServices .rounded-card--inner{
+#emergencyServices .rounded-card--inner {
     align-items: flex-start;
 }
 
-
-.onsitemedical .gridwrapper.bluebg.onsite .first-grid{
+.onsitemedical .gridwrapper.bluebg.onsite .first-grid {
     padding: 20px 35px;
 }
 
 /* */
 
-.gridwrapper.greybg.manpower .fourth-grid{
+.gridwrapper.greybg.manpower .fourth-grid {
     right: 76%;
 }
 
 /* */
 
-.medicalmanpower .gridwrapper.greybg.manpower .fifth-grid{
-    border-radius: 0 20px 0 20px;
+.medicalmanpower .gridwrapper.greybg.manpower .fifth-grid {
+    border-radius: 0 25px 0 25px;
 }
 
-.onsitemedical .gridwrapper.bluebg.emergency .first-grid{
+.onsitemedical .gridwrapper.bluebg.emergency .first-grid {
     padding: 20px 35px;
     width: 218px;
     right: 0;
@@ -301,39 +354,1023 @@ header{
     width: 244px;
 }
 
-.onsitemedical .gridwrapper.bluebg.emergency .fourth-grid{
+.onsitemedical .gridwrapper.bluebg.emergency .fourth-grid {
     left: -16.5%;
 }
 
-.medicalmanpower .rounded-card--inner{
+.medicalmanpower .rounded-card--inner {
     align-items: flex-start;
 }
 
-.gridwrapper.greybg.support .first-grid{
+.gridwrapper.greybg.support .first-grid {
     width: 218px;
     z-index: 0;
 }
 
 /* */
 
-.onsitemedical .rounded-card--inner img{
-    max-width: 52px;
+#atGlance.rounded-card.item4 figure {
+    height: 130px;
 }
 
-.gridwrapper.bluebg.school .first-grid{
+.gridwrapper.bluebg.school .first-grid {
     right: 0;
     width: 210px;
     padding: 20px 35px;
 }
 
-.gridwrapper.bluebg.school .second-grid{
-    border-radius: 0 20px 0 20px;
+.gridwrapper.bluebg.school .second-grid {
+    border-radius: 0 25px 0 25px;
     right: 32.5%;
     width: 252px;
 }
 
-.gridwrapper.bluebg.school .fourth-grid{
+.gridwrapper.bluebg.school .fourth-grid {
     left: -94px;
+}
+
+.message.onsitemedical .onsitemedical--left .message-position {
+    opacity: 1;
+}
+
+.isotopebanner {
+    padding: 40px 0;
+    background-size: cover;
+}
+
+.isotopebanner .grid {
+    position: relative;
+    height: 750px;
+}
+
+.isotopebanner .grid__item {
+    margin-bottom: 20px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.isotopebanner .desktop_banner .grid__item img{
+    height: 100%;
+}
+
+.isotopebanner .desktop_banner .iso-1 {
+    top: 3%;
+    left: 12.6%;
+    width: 128px;
+    height: 110px;
+}
+
+.isotopebanner .desktop_banner .iso-2 {
+    left: 25.3%;
+    top: 12%;
+    width: 220px;
+    height: 146px;
+}
+
+.isotopebanner .desktop_banner .iso-3 {
+    left: 46.25%;
+    top: 12%;
+    width: 176px;
+    height: 144px;
+}
+
+.isotopebanner .desktop_banner .iso-4 {
+    left: 63.3%;
+    top: 0;
+    width: 268px;
+    height: 178px;
+}
+
+.isotopebanner .desktop_banner .iso-5 {
+    top: 16%;
+    right: 0;
+    width: 128px;
+    height: 110px;
+}
+
+.isotopebanner .desktop_banner .iso-6 {
+    left: 38%;
+    top: 32.8%;
+    width: 128px;
+    height: 110px;
+}
+
+.isotopebanner .desktop_banner .iso-7 {
+    left: 50.4%;
+    top: 32.5%;
+}
+
+.isotopebanner .desktop_banner .iso-8 {
+    left: 63.3%;
+    top: 32.6%;
+    width: 268px;
+    height: 232px;
+}
+
+.isotopebanner .desktop_banner .iso-9 {
+    left: 12.6%;
+    top: 47%;
+    width: 128px;
+    height: 110px;
+}
+
+.isotopebanner .desktop_banner .iso-10 {
+    left: 25.4%;
+    top: 48.9%;
+    width: 268px;
+    height: 238px;
+}
+
+.isotopebanner .desktop_banner .iso-11 {
+    left: 50.5%;
+    top: 48.9%;
+    width: 128px;
+    height: 110px;
+}
+
+.isotopebanner .desktop_banner .iso-12 {
+    left: 0;
+    top: 63.5%;
+    width: 128px;
+    height: 110px;
+}
+
+.isotopebanner .desktop_banner .iso-13 {
+    left: 50.5%;
+    top:65%;
+    width: 268px;
+    height: 176px;
+}
+
+.isotopebanner .desktop_banner .iso-14 {
+    left: 75.9%;
+    top: 65%;;
+    width: 128px;
+    height: 110px;
+}
+
+.isotopebanner .desktop_banner .iso-15 {
+    left: 12.4%;
+    top: 82%;
+}
+
+.isotopebanner .desktop_banner .iso-16 {
+    left: 37.8%;
+    top: 82%;
+}
+
+.isotopebanner .desktop_banner .iso-17 {
+    right: 0;
+    top: 81%;
+    width: 128px;
+    height: 110px;
+}
+
+.isotopebanner .desktop_banner .iso-18 {
+    left: 0;
+    top: 22%;
+    width: 268px;
+    height: 178px;
+}
+
+.isotopebanner .grid__item {
+    overflow: hidden;
+}
+
+.isotopebanner .grid__item.anticlock-br {
+    border-radius: 0 25px 0 25px;
+}
+
+.isotopebanner .grid__item.clock-br {
+    border-radius: 25px 0 25px 0;
+}
+
+.isotopebanner .grid__item.red {
+    background: #E30613;
+}
+
+.isotopebanner .grid__item.blue {
+    background: rgb(1,46,103);
+    background: -moz-linear-gradient(38deg, rgba(1,46,103,1) 0%, rgba(0,70,140,1) 100%);
+    background: -webkit-linear-gradient(38deg, rgba(1,46,103,1) 0%, rgba(0,70,140,1) 100%);
+    background: linear-gradient(38deg, rgba(1,46,103,1) 0%, rgba(0,70,140,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#012e67",endColorstr="#00468c",GradientType=1);
+}
+
+.isotopebanner .grid__item.text-grid {
+    padding: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 46px;
+    color: white;
+    line-height: 46px;
+    font-weight: 500;
+}
+
+.isotopebanner .grid__item-1 {
+    height: 115px;
+    width: 130px;
+}
+
+.isotopebanner .grid__item-2 {
+    height: 125px;
+    width: 235px;
+    border-radius: 0 25px 0 25px;
+}
+
+.isotopebanner .grid__item-3 {
+    height: 147px;
+    width: 178px;
+    border-radius: 0 25px 0 25px;
+}
+
+.isotopebanner .grid__item-4 {
+    height: 187px;
+    width: 262px;
+    border-radius: 0 25px 0 25px;
+}
+
+.isotopebanner .grid__item-5 {
+    height: 251px;
+    width: 492px;
+    border-radius: 0 25px 0 25px;
+}
+
+.isotopebanner .grid__item-6 {
+    height: 115px;
+    width: 133px;
+    border-radius: 0 25px 0 25px;
+}
+
+.isotopebanner .grid__item-7 {
+    height: 220px;
+    width: 264px;
+    border-radius: 0 25px 0 25px;
+}
+
+.isotopebanner .grid__item--width2 {
+    width: 66%;
+}
+
+.isotopebanner .grid__item img {
+    display: block;
+    max-width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+
+#messageCEO .gridwrapper.greybg.ceo .first-grid.zindex {
+    background: transparent !important;
+    z-index: 2;
+}
+
+#messageCEO .gridwrapper.greybg.ceo .first-grid .numbersCount{
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 60px;
+}
+
+#messageCEO .gridwrapper.greybg.ceo .first-grid p{
+    padding-right: 15%;
+    font-weight: bold;
+    line-height: 14px;
+    font-size: 12px;
+    font-family: 'Gotham';
+}
+
+#messageCEO .rounded-card--height1 .rounded-card--inner figure{
+    width: 70px;
+}
+
+
+#messageCEO .gridwrapper.greybg.ceo .third-grid{
+    border-radius: 25px 0 25px 0;
+    width: 162px;
+    height: 112px;
+}
+
+#messageCEO .gridwrapper.greybg.ceo .fourth-grid{
+    width: 206px;
+    height: 142px;
+    bottom: -6%;
+}
+
+#messageCEO .gridwrapper.greybg.ceo .fifth-grid{
+    width: 336px;
+    height: 200px;
+    top: 54%;
+}
+
+
+
+#medicalServices .message-detail.bg-blue{
+    padding-right: 15%;
+}
+
+#medicalServices .rounded-card--inner figure{
+    width: 70px;
+    height: 70px;
+}
+
+#medicalServices .gridwrapper.bluebg.onsite .first-grid{
+    border-radius: 25px 0 25px 0;
+    width: 226px;
+    height: 240px;
+}
+
+#medicalServices .gridwrapper.bluebg.onsite .first-grid .numbersCount{
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 60px;
+}
+
+#medicalServices .gridwrapper.bluebg.onsite .second-grid{
+    width: 226px;
+    height: 184px;
+    top: 35.5%;
+    right: 35%;
+}
+
+#medicalServices .gridwrapper.bluebg.onsite .third-grid{
+    width: 184px;
+    height: 128px;
+    top: 45%;
+}
+
+#medicalServices .gridwrapper.bluebg.onsite .fifth-grid{
+    width: 500px;
+    height: 286px;
+    top: 61.5%;
+}
+
+#medicalServices .gridwrapper.bluebg.onsite .fourth-grid{
+    width: 232px;
+    height: 138px;
+    top: 80.7%;
+    left: -32%;
+}
+
+#medicalServices .gridwrapper, #manpowerServices .gridwrapper{
+    height: 770px;
+}
+
+#medicalServices .pdf-link{
+    margin-top: 50%;
+}
+
+#manpowerServices .gridwrapper.greybg.manpower .first-grid {
+    right: 44%;
+    width: 238px;
+    height: 262px;
+    border-radius: 25px 0 25px 0;
+}
+
+#manpowerServices .gridwrapper.greybg.manpower .first-grid.zindex {
+    background: transparent !important;
+    z-index: 2;
+}
+
+#manpowerServices .gridwrapper.greybg.manpower .first-grid p {
+    padding-right: 15%;
+}
+
+#manpowerServices .rounded-card--inner figure{
+    width: 70px;
+    height: 70px;
+}
+
+#manpowerServices .gridwrapper.greybg.manpower .first-grid .numbersCount{
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 60px;
+}
+
+#manpowerServices .gridwrapper.greybg.manpower .third-grid{
+    width: 296px;
+    height: 194px;
+    border-radius: 25px 0 25px 0;
+}
+
+#manpowerServices .gridwrapper.greybg.manpower .fourth-grid{
+    width: 204px;
+    height: 140px;
+    right: 87%;
+    top: 79.5%;
+    border-radius: 25px 0 25px 0;
+}
+
+#manpowerServices .gridwrapper.greybg.manpower .fifth-grid {
+    border-radius: 0 25px 0 25px;
+    width: 486px;
+    height: 312px;
+    top: 57%;
+}
+
+#manpowerServices .message-detail{
+    padding-right: 20%;
+}
+
+#manpowerServices .pdf-link{
+    margin-top: 20px;
+}
+
+#emergencyServices .pdf-link{
+    margin-top: 18%;
+}
+
+#emergencyServices .gridwrapper.bluebg.emergency .first-grid{
+    width: 238px;
+    height: 264px;
+    padding: 20px 50px;
+    border-radius: 25px 0 25px 0;
+    z-index: 2;
+}
+
+#emergencyServices .rounded-card--inner figure{
+    width: 70px;
+    height: 70px;
+}
+
+#emergencyServices .gridwrapper.bluebg.emergency .first-grid .numbersCount{
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 60px;
+}
+
+#emergencyServices .gridwrapper.bluebg.emergency .second-grid{
+    width: 298px;
+    height: 224px;
+    right: 36%;
+    top: 24%;
+}
+
+#emergencyServices .gridwrapper.bluebg.emergency .fourth-grid{
+    right: 90%;
+    top: 80.5%;
+    left: auto;
+    border-radius: 25px 0 25px 0;
+}
+
+#emergencyServices .gridwrapper.bluebg.emergency .fifth-grid{
+    width: 508px;
+    height: 288px;
+    top: 57%;
+    border-radius: 25px 0 25px 0;
+}
+
+#emergencyServices .gridwrapper{
+    height: 710px;
+    margin-top: 10%;
+}
+
+#supportEvent .gridwrapper{
+    height: 710px;
+    margin-top: 10%;
+}
+
+#supportEvent .gridwrapper.greybg.support .fourth-grid{
+    width: 160px;
+    height: 160px;
+    border-radius: 25px 0 25px 0;
+    top: 0;
+}
+
+#supportEvent .gridwrapper.greybg.support .third-grid{
+    width: 340px;
+    height: 216px;
+    border-radius: 25px 0 25px 0;
+    right: 20.5%;
+    top: 10%;
+}
+
+#supportEvent .gridwrapper.greybg.support .first-grid{
+    width: 246px;
+    height: 264px;
+    border-radius: 25px 0 25px 0;
+    top: 61%;
+}
+
+#supportEvent .gridwrapper.greybg.support .first-grid.zindex{
+    background: transparent !important;
+    z-index: 2;
+}
+
+#supportEvent .gridwrapper.greybg.support .fifth-grid{
+    width: 458px;
+    height: 278px;
+    border-radius: 25px 0 25px 0;
+    top: 42.5%;
+}
+
+#supportEvent .rounded-card--inner figure{
+    width: 70px;
+    height: 70px;
+}
+
+#supportEvent .gridwrapper.greybg.support .first-grid .numbersCount{
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 60px;
+}
+
+#supportEvent .message-detail{
+    padding-right: 20%;
+}
+
+#supportEvent .pdf-link{
+    margin-top: 15%;
+}
+
+#schoolHealthcare .gridwrapper{
+    margin-top: 15%;
+}
+
+#schoolHealthcare .gridwrapper.bluebg.school .first-grid{
+    width: 238px;
+    height: 264px;
+    border-radius: 25px 0 25px 0;
+    z-index: 2;
+    padding: 20px 50px;
+}
+
+#schoolHealthcare .gridwrapper.bluebg.school .second-grid{
+    width: 298px;
+    height: 224px;
+    right: 36%;
+}
+
+#schoolHealthcare .gridwrapper.bluebg.school .fourth-grid{
+    width: 200px;
+    height: 144px;
+    left: -27%;
+    top: 80%;
+    border-radius: 25px 0 25px 0;
+}
+
+#schoolHealthcare .gridwrapper.bluebg.school .fifth-grid{
+    width: 506px;
+    height: 284px;
+    top: 59%;
+    border-radius: 25px 0 25px 0;
+}
+
+#schoolHealthcare .rounded-card--inner figure{
+    width: 50px;
+    height: 90px;
+}
+
+#schoolHealthcare .gridwrapper.bluebg.school .first-grid .numbersCount{
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 60px;
+}
+
+#schoolHealthcare .message-detail{
+    padding-right: 20%;
+}
+
+#schoolHealthcare .pdf-link{
+    margin-top: 15%;
+}
+
+#healthServices .gridwrapper{
+    margin-top: 10%;
+}
+
+#healthServices .gridwrapper.greybg.occupation .fourth-grid{
+    width: 140px;
+    height: 140px;
+    border-radius: 25px 0 25px 0;
+}
+
+#healthServices .gridwrapper.greybg.occupation .fifth-grid{
+    width: 308px;
+    height: 184px;
+    border-radius: 25px 0 25px 0;
+    top: 56.5%;
+    right: 26.5%;
+}
+
+#healthServices .gridwrapper.greybg.occupation .third-grid{
+    width: 460px;
+    height: 278px;
+}
+
+#healthServices .gridwrapper.greybg.occupation .first-grid{
+    width: 238px;
+    height: 258px;
+    background: white;
+    z-index: initial;
+    border-radius: 25px 0 25px 0;
+    right: 68%;
+}
+
+#healthServices .gridwrapper.greybg.occupation .first-grid.zindex{
+    background: transparent !important;
+    z-index: 2;
+}
+
+#healthServices .rounded-card--inner figure{
+    width: 70px;
+    height: 70px;
+}
+
+#healthServices .gridwrapper.greybg.occupation .first-grid .numbersCount{
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 60px;
+}
+
+#healthServices .message-detail{
+    padding-right: 20%;
+}
+
+#healthServices .pdf-link{
+    margin-top: 15%;
+}
+
+#facilitiesManagement .gridwrapper{
+    margin-top: 15%;
+    height: 740px;
+}
+
+#facilitiesManagement .gridwrapper.bluebg.healthcare .first-grid{
+    width: 236px;
+    height: 266px;
+    border-radius: 25px 0 25px 0;
+    z-index: 2;
+}
+
+#facilitiesManagement .gridwrapper.bluebg.healthcare .first-grid .rounded-card--inner p{
+    padding-right: 30%;
+}
+
+#facilitiesManagement .gridwrapper.bluebg.healthcare .third-grid{
+    width: 270px;
+    height: 176px;
+    border-radius: 25px 0 25px 0;
+}
+
+#facilitiesManagement .gridwrapper.bluebg.healthcare .fourth-grid{
+    width: 198px;
+    height: 132px;
+    border-radius: 25px 0 25px 0;
+    right: 97.5%;
+    top: 80.3%;
+}
+
+#facilitiesManagement .gridwrapper.bluebg.healthcare .fifth-grid{
+    width: 550px;
+    height: 308px;
+    border-radius: 25px 0 25px 0;
+    top: 56.5%;
+}
+
+#facilitiesManagement .rounded-card--inner figure{
+    width: 70px;
+    height: 70px;
+}
+
+#facilitiesManagement .gridwrapper.bluebg.healthcare .first-grid .numbersCount{
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 60px;
+}
+
+#facilitiesManagement .message-detail{
+    padding-right: 20%;
+}
+
+#facilitiesManagement .pdf-link{
+    margin-top: 30%;
+}
+
+#mobileClinics .gridwrapper{
+    margin-top: 10%;
+    height: 740px;
+}
+#mobileClinics .rounded-card--inner p{
+    padding-right: 35%;
+}
+
+#mobileClinics .gridwrapper.greybg.mobile .first-grid{
+    width: 246px;
+    height: 266px;
+    border-radius: 25px 0 25px 0;
+    z-index: initial;
+}
+#mobileClinics .gridwrapper.greybg.mobile .first-grid.zindex{
+    background: transparent !important;
+    z-index: 2;
+}
+
+#mobileClinics .gridwrapper.greybg.mobile .third-grid{
+    width: 332px;
+    height: 224px;
+}
+
+#mobileClinics .gridwrapper.greybg.mobile .fourth-grid{
+    width: 176px;
+    height: 126px;
+    border-radius: 25px 0 25px 0;
+    right: 88%;
+}
+
+#mobileClinics .gridwrapper.greybg.mobile .fifth-grid{
+    width: 550px;
+    height: 314px;
+    top: 56.5%;
+}
+
+#mobileClinics .rounded-card--inner figure{
+    width: 70px;
+    height: 70px;
+}
+
+#mobileClinics .gridwrapper.greybg.mobile .first-grid .numbersCount{
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 60px;
+}
+
+#mobileClinics .message-detail{
+    padding-right: 20%;
+}
+
+#mobileClinics .pdf-link{
+    margin-top: 20%;
+}
+
+.isotopemegamenu .grid__item.anticlock-br{
+    border-radius: 0 15px 0 15px;
+}
+
+.isotopemegamenu .grid__item.clock-br{
+    border-radius: 15px 0 15px 0;
+}
+
+.isotopemegamenu .mega-8{
+    border-radius: 0 15px 0 15px;
+}
+
+.isotopemegamenu .mega-2{
+    width: 128px;
+    height: 78px;
+    right: 50.3%;
+}
+
+
+.isotopemegamenu .mega-5{
+    border-radius: 15px 0 15px 0;
+    width: 75px;
+    height: 60px;
+    top: 45%;
+    right: 45%;
+}
+
+.isotopemegamenu .grid__item-5{
+    border-radius: 0 15px 0 15px;
+}
+
+.isotopemegamenu .grid__item.text-grid{
+    width: 154px;
+    height: 142px;
+}
+
+.isotopemegamenu .mega-4{
+    width: 90px;
+    height: 58px;
+    right: 32.2%;
+    top: -3%;
+}
+
+.isotopemegamenu .mega-1{
+    width: 74px;
+    height: 60px;
+    top: 4%;
+    right: 75.3%;
+}
+
+.isotopemegamenu .mega-3{
+    width: 102px;
+    height: 78px;
+    border-radius: 0 15px 0 15px;
+    right: 30%;
+}
+
+.isotopemegamenu .mega-6{
+    width: 156px;
+    height: 98px;
+    right: 75.5%;
+    top: 33%;
+}
+
+.isotopemegamenu .mega-9{
+    width: 156px;
+    height: 104px;
+    right: 45%;
+    top: 67%;
+}
+
+.isotopemegamenu .mega-10{
+    width: 74px;
+    height: 60px;
+    right: 30%;
+    top: 45%;
+}
+
+.isotopemegamenu .mega-7{
+    width: 74px;
+    height: 60px;
+    right: 75.5%;
+    top: 69%;
+}
+
+.isotopemegamenu .mega-11{
+    right: 3%;
+    top: 60%;
+}
+
+.isotopemegamenu .grid__item.text-grid{
+    font-weight: 500;
+}
+
+.accordion {
+    display: none;
+}
+
+.menuaccordian .card-header {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-size: 1em;
+    background: #787D81;
+    border-radius: 0;
+    cursor: pointer;
+    padding: .5rem .75rem;
+}
+
+.menuaccordian .card-header button {
+    color: white;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+
+.menuaccordian .card-header button.btn-link {
+    text-decoration: none;
+}
+
+.menuaccordian .card-header button img {
+    width: 12px;
+}
+
+.menuaccordian .card-body {
+    padding: 0;
+}
+
+@media screen and (max-width: 426px) {
+
+    .message {
+        padding: 40px 0;
+        position: relative;
+        /*padding-bottom: 0;*/
+    }
+
+    .message.message-chair {
+        background: #336BA4;
+        padding: 0;
+    }
+
+    .message.message-ceo {
+        background: url("../images/dark-blue-bg.png") no-repeat;
+        background-size: cover;
+        padding: 0;
+    }
+
+    .message-banner {
+        flex-direction: column;
+    }
+
+    .message-title {
+        width: 100%;
+    }
+
+    .message-banner--left {
+        -webkit-box-flex: 2;
+        -ms-flex: 2;
+        flex: 2;
+        padding: 40px 0;
+    }
+
+    .message-banner--right {
+        width: 100%;
+        margin-top: calc(50% - 221px) !important;
+        padding-top: 40px;
+    }
+
+    .partners .partnerslogos .partnerlogo {
+        width: 33.11%;
+    }
+
+    .partners.message .medicalmanpower--left {
+        padding-bottom: 35px;
+    }
+
+    .message.onsitemedical .onsitemedical--left {
+        width: 100%;
+    }
+
+    .message.medicalmanpower .medicalmanpower--left {
+        width: 100%;
+    }
+
+    .desktophide {
+        display: none;
+    }
+
+    .accordion {
+        display: block;
+    }
+}
+
+.togglered {
+    background: #E30613 !important;
+}
+
+.accordion {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-size: 1em;
+    background: #979fa4;
+    border-radius: 0;
+    cursor: pointer;
+    padding: .5rem 1.75rem .5rem .75rem;
+    width: 100%;
+    border: none;
+    color: white;
+    margin-bottom: 1px;
+    text-align: left;
+    position: relative;
+}
+
+.accordion:after {
+    content: '';
+    background: url(../images/downicon.svg) no-repeat;
+    width: 14px;
+    height: 12px;
+    display: block;
+    right: 10px;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%);
+    margin-top: -3px;
+}
+
+.accordion.active {
+    background: #333333;
+}
+
+.accordion.active:after {
+    background: url(../images/icon_minus.svg) no-repeat;
+}
+
+.accordion:focus {
+    outline: none;
+}
+
+.accordion span {
+    float: left;
+}
+
+.accordion img {
+    float: right;
+    padding-top: 8px;
+    width: 12px;
+    margin-right: -15px;
+}
+
+.hidetoggle {
+    display: none;
+}
+
+#messageChairman .message-detail .pdf-detail span,
+#messageCEO .message-detail .pdf-detail span,
+#manpowerServices .message-detail .pdf-detail span,
+#supportEvent .message-detail .pdf-detail span,
+#healthServices .message-detail .pdf-detail span,
+#mobileClinics .message-detail .pdf-detail span
+{
+    color: black;
 }
 
 
@@ -343,170 +1380,884 @@ header{
         display: none;
     }
 
-    .footer .pdf-detail span{
+    .footer .pdf-detail span {
         color: white;
     }
 
-    .card{
+    .card {
         border-left: 0;
         border-right: 0;
+    }
+
+    .d-flex {
+        display: block !important;
+    }
+
+    .gridwrapper.greybg.chairman {
+        height: 260px;
+    }
+
+    .gridwrapper.greybg.chairman .first-grid {
+        left: 0;
+        margin-left: 0;
+        width: 230px;
+        height: auto;
+        bottom: 20%;
+    }
+
+    .gridwrapper.greybg.chairman .third-grid {
+        bottom: -5%;
+    }
+
+    .message-detail p {
+        line-height: 22px;
+    }
+
+    .gridwrapper.greybg.ceo .first-grid {
+        bottom: 58%;
+        left: 0;
+        margin-left: 0;
+        background: transparent;
+        width: 60%;
+    }
+
+    .gridwrapper.greybg.ceo .third-grid {
+        bottom: 63%;
+    }
+
+    .gridwrapper.greybg.ceo .fourth-grid {
+        left: 0;
+        margin-left: 0;
+        bottom: -2%;
+    }
+
+    .gridwrapper.greybg.ceo .fifth-grid {
+        width: 100%;
+        bottom: 23%;
+    }
+
+    .gridwrapper.greybg.ceo {
+        height: 540px;
+    }
+
+    .partners-review {
+        margin-bottom: 15px;
+    }
+
+    .onsitemedical--right {
+        width: 100%;
+    }
+
+    .gridwrapper.bluebg.onsite .first-grid {
+        top: 0;
+    }
+
+    .gridwrapper.bluebg.onsite .second-grid {
+        top: 30%;
+    }
+
+    .gridwrapper.bluebg.onsite .third-grid {
+        bottom: 0;
+        left: 0;
+        margin-left: 0;
+    }
+
+    .gridwrapper.bluebg.onsite .fourth-grid {
+        width: 40%;
+        bottom: -3.5%;
+        right: 0;
+        left: auto;
+    }
+
+    .gridwrapper.bluebg.onsite .fifth-grid {
+        width: 100%;
+        top: 56%;
+    }
+
+    .onsitemedical--right, .medicalmanpower--right {
+        width: 100%;
+    }
+
+    #manpowerServices .gridwrapper {
+        height: 520px;
+    }
+
+    .gridwrapper.greybg.manpower .fifth-grid {
+        width: 70%;
+        top: 66%;
+        margin-left: 0;
+        left: 0;
+    }
+
+    .gridwrapper.greybg.manpower .third-grid {
+        width: 50%;
+        top: 38%;
+    }
+
+    .gridwrapper.greybg.manpower .fourth-grid {
+        right: 0;
+        width: 26%;
+        top: 88%;
+    }
+
+    #emergencyServices .gridwrapper {
+        height: 440px;
+    }
+
+    .onsitemedical .gridwrapper.bluebg.emergency .first-grid {
+        width: 70%;
+        right: 0;
+        top: 0;
+        padding-bottom: 12%;
+    }
+
+    .onsitemedical .gridwrapper.bluebg.emergency .second-grid {
+        border: 0;
+        right: 34%;
+        width: 50%;
+        top: 44%;
+        margin-left: 0;
+        left: 0;
+    }
+
+    .onsitemedical .gridwrapper.bluebg.emergency .fourth-grid {
+        left: 0;
+        width: 36%;
+        top: 82%;
+        margin-left: 0;
+    }
+
+    .gridwrapper.bluebg.emergency .fifth-grid {
+        width: 60%;
+        height: 250px;
+        top: 75%;
+        right: 0;
+    }
+
+    #supportEvent .gridwrapper {
+        height: 670px;
+    }
+
+    .gridwrapper.greybg.support .first-grid {
+        width: 65%;
+        left: 0;
+        top: 51%;
+        margin-left: 0;
+        padding-top: 10%;
+    }
+
+    .gridwrapper.greybg.support .third-grid {
+        top: 10%;
+        right: 22%;
+        left: 0;
+        width: 70%;
+        margin-left: 0;
+    }
+
+    .gridwrapper.greybg.support .fourth-grid {
+        top: 0;
+        right: 6%;
+        width: 50%;
+    }
+
+    .gridwrapper.greybg.support .fifth-grid {
+        right: 0;
+        width: 80%;
+        top: 32%;
+    }
+
+    #schoolHealthcare .gridwrapper {
+        height: 440px;
+    }
+
+    .gridwrapper.bluebg.school .first-grid {
+        right: 0;
+        width: 70%;
+        top: 0;
+    }
+
+    .gridwrapper.bluebg.school .second-grid {
+        width: 50%;
+        left: 0;
+        margin-left: 0;
+        top: 43%;
+    }
+
+    .gridwrapper.bluebg.school .fourth-grid {
+        left: 0;
+        width: 31%;
+        top: 79%;
+        margin-left: 0;
+    }
+
+    .gridwrapper.bluebg.school .fifth-grid {
+        width: 65%;
+        top: 70%;
+        right: 0;
+    }
+
+    #healthServices .gridwrapper {
+        height: 670px;
+    }
+
+    .gridwrapper.greybg.occupation .first-grid {
+        left: 0;
+        width: 60%;
+        margin-left: 0;
+        bottom: 3%;
+    }
+
+    .gridwrapper.greybg.occupation .third-grid {
+        bottom: 43%;
+        right: 0%;
+        width: 100%;
+    }
+
+    .gridwrapper.greybg.occupation .fourth-grid {
+        top: 0;
+        right: 6%;
+    }
+
+    .gridwrapper.greybg.occupation .fifth-grid {
+        right: 0;
+        top: 47%;
+        width: 70%;
+    }
+
+    #facilitiesManagement .gridwrapper {
+        height: 440px;
+    }
+
+    .gridwrapper.bluebg.healthcare .first-grid {
+        top: 0;
+        margin-left: 0;
+        left: 0;
+        width: 65%;
+    }
+
+    .gridwrapper.bluebg.healthcare .third-grid {
+        right: 0;
+        top: 44%;
+        width: 60%;
+    }
+
+    .gridwrapper.bluebg.healthcare .fourth-grid {
+        width: 25%;
+        right: 0;
+        top: 89%;
+        margin-left: 0;
+    }
+
+    .gridwrapper.bluebg.healthcare .fifth-grid {
+        left: 0;
+        width: 70%;
+        top: 74%;
+        margin-left: 0;
+    }
+
+    #mobileClinics .gridwrapper {
+        height: 530px;
+    }
+
+    .gridwrapper.greybg.mobile .first-grid {
+        top: 0;
+        left: 0;
+        background: transparent;
+        margin-left: 0;
+    }
+
+    .gridwrapper.greybg.mobile .third-grid {
+        right: 0%;
+        width: 50%;
+        top: 37%;
+        margin-left: 0;
+    }
+
+    .gridwrapper.greybg.mobile .fourth-grid {
+        right: 5%;
+        top: 77%;
+    }
+
+    .gridwrapper.greybg.mobile .fifth-grid {
+        right: 0;
+        width: 100%;
+        top: 58%;
+    }
+
+}
+
+@media (max-width: 420px) {
+    #supportEvent .gridwrapper.greybg.support .fifth-grid {
+        top: 38%;
+    }
+
+    #supportEvent .gridwrapper.greybg.support .first-grid {
+        top: 63%
+    }
+
+    #schoolHealthcare .gridwrapper.bluebg.school .fifth-grid {
+        top: 79%;
+    }
+
+    #schoolHealthcare .pdf-link {
+        margin-top: 20%;
+    }
+
+    #healthServices .gridwrapper.greybg.occupation .fifth-grid {
+        top: 56%;
+    }
+
+    #healthServices .gridwrapper.greybg.occupation .first-grid {
+        bottom: -10%;
+    }
+
+    #facilitiesManagement .gridwrapper.bluebg.healthcare .fourth-grid {
+        top: 102%;
+    }
+
+    #facilitiesManagement .gridwrapper.bluebg.healthcare .fifth-grid {
+        top: 82%;
+    }
+
+    #facilitiesManagement .pdf-link {
+        margin-top: 20%;
+    }
+
+    #mobileClinics .gridwrapper.greybg.mobile .fifth-grid {
+        top: 64%;
+    }
+
+    #mobileClinics .pdf-link {
+        margin-top: 20%;
+    }
+}
+
+@media (max-width: 320px) {
+    #manpowerServices .gridwrapper {
+        height: 440px;
+    }
+
+    .gridwrapper.greybg.manpower .first-grid {
+        left: 0;
+        margin-left: 0;
+        top: 0;
+    }
+
+    .gridwrapper.greybg.manpower .third-grid {
+        width: 50%;
+        top: 46%;
+    }
+
+    .gridwrapper.greybg.manpower .fourth-grid {
+        right: 0;
+        width: 26%;
+        top: 91%;
+    }
+
+    .gridwrapper.greybg.manpower .fifth-grid {
+        width: 70%;
+        top: 71%;
+        margin-left: 0;
+        left: 0;
+    }
+
+    #messageCEO .gridwrapper.greybg.ceo .first-grid {
+        width: 60%;
+    }
+
+    .gridwrapper.greybg.ceo .first-grid {
+        background: transparent;
     }
 }
 
 @media (min-width: 769px) {
 
-    .footer  .mobile_menu{
+    .footer .mobile_menu {
         display: none;
     }
 }
+
 @media (max-width: 768px) {
     .desktop_menu {
         display: none;
     }
 
-    .footer .mobile_menu{
+    .footer .mobile_menu {
         display: block;
         position: relative;
+    }
+
+    .clearNow{
+        display: none;
     }
 
 }
 
 /* responsive */
 
-@media (max-width: 767px){
-    .header{
-        height: 90px;
+@media (min-width: 769px) {
+    .mbl {
+        display: none !important;
     }
-    .header--right{
-        margin: 0;
-        height: auto;
+
+    .clearNow{
+        display: block;
     }
 }
 
-@media (max-width: 375px){
-    .header{
+@media (max-width: 767px) {
+    .dsk {
+        display: none !important;
+    }
+
+    .mbl {
+        display: inline-flex !important;
+    }
+
+    .header {
+        height: 90px;
+    }
+
+    .header--right {
+        margin: 0;
+        height: auto;
+        width: auto;
+    }
+
+    .message.atglance .onsitemedical--right {
+        /*margin-left: -7px;*/
+        display: inline-flex;
+    }
+
+    #atGlance .rounded-card {
+        width: 47.5%;
+        display: inline-block;
+        margin: 1.1%;
+        padding: 20px 10px;
+    }
+
+    .rounded-card.item1, .rounded-card.item2 {
+        border-radius: 0 25px 0 25px;
+    }
+
+    /*.rounded-card.item4,*/
+    /*.rounded-card.item5,*/
+    /*.rounded-card.item7,*/
+    /*.rounded-card.item4{*/
+    /*margin-left: 0;*/
+    /*width: 50%;*/
+    /*}*/
+    .rounded-card.item4, .rounded-card.item9 {
+        width: 97% !important;
+        margin-left: 0;
+        position: relative;
+        padding-bottom: 12% !important;
+        height: auto;
+    }
+
+    .rounded-card.item9 div.new_2m {
+        width: 50%;
+        position: absolute;
+        left: 5%;
+    }
+
+}
+
+@media (max-width: 375px) {
+    .header {
         height: 60px;
     }
 
 }
 
-.isotopebanner {
-    padding: 40px 0;
-    background: url("../images/grey-bg.png") no-repeat;
-    background-size: cover; }
-.isotopebanner .grid {
-    position: relative;
-    height: 750px; }
-.isotopebanner .grid__item {
-    margin-bottom: 20px;
-    position: absolute;
-    bottom: 0;
-    right: 0; }
-.isotopebanner .iso-1 {
-    top: 0;
-    left: 11.8%; }
-.isotopebanner .iso-2 {
-    left: 24.5%;
-    top: 12%; }
-.isotopebanner .iso-3 {
-    left: 46.5%;
-    top: 12%; }
-.isotopebanner .iso-4 {
-    left: 63.5%;
-    top: 0; }
-.isotopebanner .iso-5 {
-    top: 12%;
-    right: 0; }
-.isotopebanner .iso-6 {
-    left: 38%;
-    top: 30%;}
-.isotopebanner .iso-7 {
-    left: 51%;
-    top: 30%; }
-.isotopebanner .iso-8 {
-    left: 64%;
-    top: 30%; }
-.isotopebanner .iso-9 {
-    left: 11.8%;
-    top: 47%;
-}
-.isotopebanner .iso-10 {
-    left: 25%;
 
-    top: 46.5%;}
-.isotopebanner .iso-11 {
-    left: 50%;
-    top: 46.5%; }
-.isotopebanner .iso-12 {
-    left: 0;
-    top: 66%; }
-.isotopebanner .iso-13 {
-    left: 50%;
-    top: 63.5%; }
-.isotopebanner .iso-14 {
-    left: 75%;
-    top: 63.5% }
-.isotopebanner .iso-15 {
-    left: 11.8%;
-    bottom: 37px; }
-.isotopebanner .iso-16 {
-    left: 37%;
-    bottom: 37px; }
-.isotopebanner .iso-17 {
-    right: 0;
-    bottom: 37px; }
-.isotopebanner .iso-18 {
-    left: 0;
-    top: 22%; }
-.isotopebanner .grid__item {
-    overflow: hidden; }
-.isotopebanner .grid__item.anticlock-br {
-    border-radius: 0 25px 0 25px; }
-.isotopebanner .grid__item.clock-br {
-    border-radius: 25px 0 25px 0; }
-.isotopebanner .grid__item.red {
-    background: #E30613; }
-.isotopebanner .grid__item.blue {
-    background: #004891; }
-.isotopebanner .grid__item.text-grid {
-    padding: 20px;
-    font-family: vga-thin;
-    font-size: 43px;
-    font-size: 2.6875em;
-    color: white;
-    line-height: 43px; }
-.isotopebanner .grid__item-1 {
-    height: 115px;
-    width: 130px; }
-.isotopebanner .grid__item-2 {
-    height: 125px;
-    width: 235px;
-    border-radius: 0 25px 0 25px; }
-.isotopebanner .grid__item-3 {
-    height: 147px;
-    width: 178px;
-    border-radius: 0 25px 0 25px; }
-.isotopebanner .grid__item-4 {
-    height: 187px;
-    width: 262px;
-    border-radius: 0 25px 0 25px; }
-.isotopebanner .grid__item-5 {
-    height: 251px;
-    width: 492px;
-    border-radius: 0 25px 0 25px; }
-.isotopebanner .grid__item-6 {
-    height: 115px;
-    width: 133px;
-    border-radius: 0 25px 0 25px; }
-.isotopebanner .grid__item-7 {
-    height: 220px;
-    width: 264px;
-    border-radius: 0 25px 0 25px; }
-.isotopebanner .grid__item--width2 {
-    width: 66%; }
-.isotopebanner .grid__item img {
-    display: block;
-    max-width: 100%;
-    -o-object-fit: cover;
-    object-fit: cover;
+@media (max-width: 420px){
+    #atGlance.onsitemedical .item4 .rounded-card--inner img{
+        width: 65px;
+    }
+
+    #atGlance.onsitemedical .rounded-card--inner img{
+        width: 65px;
+    }
+    #atGlance.onsitemedical .item8 .rounded-card--inner img{
+        width: 95px;
+    }
+    #atGlance.onsitemedical .item4 .rounded-card--inner img{
+        width: 95px;
+    }
+
+    #messageChairman .gridwrapper.greybg.chairman .first-grid{
+        width: 80%;
+    }
+
+    #messageChairman .pdf-link{
+        margin-top: 5%;
+    }
+
+    #messageCEO .gridwrapper.greybg.ceo .first-grid {
+        -webkit-border-radius: 25px 0 25px 0;
+        -moz-border-radius: 25px 0 25px 0;
+        border-radius: 25px 0 25px 0;
+        top: 5%;
+        height: 260px;
+        padding-bottom: 14%;
+    }
+
+    #messageCEO .gridwrapper.greybg.ceo .third-grid{
+        width: 37%;
+        top: 27%;
+    }
+
+    #messageCEO .gridwrapper.greybg.ceo .fifth-grid{
+        width: 100%;
+        margin-left: 0;
+        top: 47.5%;
+    }
+    #messageCEO .gridwrapper.greybg.ceo .fourth-grid{
+        top: 86.5%;
+    }
+
+    #messageCEO .pdf-link{
+        margin-top: 25%;
+    }
+
+    #medicalServices .message-detail.bg-blue{
+        padding-right: 0;
+    }
+
+    #medicalServices .gridwrapper.bluebg.onsite .first-grid{
+        z-index: 2;
+    }
+
+    #medicalServices .gridwrapper.bluebg.onsite .second-grid{
+        left: 0;
+        margin-left: 0;
+        top: 28%;
+    }
+
+    #medicalServices .gridwrapper.bluebg.onsite .fifth-grid{
+        top: 53.5%;
+        left: 0;
+        width: 100%;
+        margin-left: 0;
+    }
+    #medicalServices .gridwrapper.bluebg.onsite .fourth-grid{
+        top: 84.2%;
+        width: 30%;
+        left: 59.3%;
+    }
+
+    #medicalServices .gridwrapper.bluebg.onsite .third-grid{
+        top: 84.1%;
+        width: 60%;
+    }
+
+    #medicalServices .pdf-link{
+        margin-top: 10%;
+    }
+
+    #manpowerServices .message-detail{
+        padding-right: 0;
+    }
+
+    #manpowerServices .gridwrapper.greybg.manpower .first-grid{
+        left: 0;
+    }
+
+    #manpowerServices .gridwrapper.greybg.manpower .third-grid{
+        top: 42%;
+        width: 55%;
+    }
+
+    #manpowerServices .gridwrapper.greybg.manpower .fifth-grid{
+        top: 71.5%;
+        width: 65%;
+    }
+
+    #manpowerServices .gridwrapper.greybg.manpower .fourth-grid{
+        top: 88%;
+        width: 32%;
+        right: 0;
+    }
+
+    #manpowerServices .pdf-link {
+         margin-top: 10%;
+     }
+
+    #manpowerServices .pdf-link .pdf-detail span {
+        color: black;
+    }
+
+    #emergencyServices .gridwrapper{
+        margin-top: 0;
+    }
+
+    #emergencyServices .gridwrapper.bluebg.emergency .second-grid{
+        top: 53%;
+        width: 50%;
+    }
+
+    #emergencyServices .gridwrapper.bluebg.emergency .fifth-grid{
+        width: 62%;
+        margin-left: 0;
+        top: 92%;
+    }
+
+    #emergencyServices .gridwrapper.bluebg.emergency .fourth-grid{
+        top: 103%;
+        left: 0;
+        width: 35%;
+        margin-left: 0;
+    }
+
+    #emergencyServices .pdf-link{
+        margin-top: 36%;
+    }
+
+    #supportEvent .message-detail{
+        padding-right: 0;
+    }
+
+    #supportEvent .gridwrapper{
+        margin-top: 0;
+    }
+
+    #supportEvent .gridwrapper.greybg.support .third-grid{
+        width: 70%;
+    }
+
+    #supportEvent .gridwrapper.greybg.support .fifth-grid{
+        width: 80%;
+    }
+
+    #supportEvent .pdf-link {
+        margin-top: 10%;
+    }
+
+    #supportEvent .pdf-link .pdf-detail span {
+        color: black;
+    }
+
+    #schoolHealthcare .message-detail{
+        padding-right: 0;
+    }
+
+    #schoolHealthcare .gridwrapper{
+        margin-top: 0;
+    }
+
+    #schoolHealthcare .gridwrapper.bluebg.school .second-grid{
+        width: 50%;
+        left: 0;
+        top: 50%;
+    }
+
+    #schoolHealthcare .gridwrapper.bluebg.school .fifth-grid{
+        top: 85%;
+        width: 70%;
+    }
+
+    #schoolHealthcare .gridwrapper.bluebg.school .fourth-grid{
+        width: 27%;
+        left: 0;
+        top: 102.3%;
+    }
+
+    #schoolHealthcare .pdf-link{
+        margin-top: 30%;
+    }
+
+    #healthServices .message-detail{
+        padding-right: 0;
+    }
+
+    #healthServices .gridwrapper{
+        margin-top: 0;
+    }
+
+    #healthServices .gridwrapper.greybg.occupation .fourth-grid{
+        width: 60%;
+    }
+
+    #healthServices .gridwrapper.greybg.occupation .third-grid{
+        width: 100%;
+    }
+
+    #healthServices .gridwrapper.greybg.occupation .fifth-grid{
+        right: 0;
+        width: 70%;
+        top: 50%;
+    }
+
+    #healthServices .pdf-link{
+        margin-top: 20%;
+    }
+
+    #healthServices .pdf-link .pdf-detail span {
+        color: black;
+    }
+
+    #facilitiesManagement .message-detail{
+        padding-right: 0;
+    }
+
+    #facilitiesManagement .gridwrapper{
+        margin-top: 0;
+    }
+
+    #facilitiesManagement .gridwrapper.bluebg.healthcare .third-grid{
+        width: 55%;
+    }
+
+    #facilitiesManagement .gridwrapper.bluebg.healthcare .fifth-grid{
+        left: 0;
+        width: 65%;
+        top: 78.5%;;
+    }
+    #facilitiesManagement .gridwrapper.bluebg.healthcare .fourth-grid{
+        top: 92.5%;
+        width: 31.5%;
+        right: 0;
+    }
+
+    #mobileClinics .message-detail{
+        padding-right: 0;
+    }
+
+    #mobileClinics .gridwrapper{
+        margin-top: 0;
+    }
+
+    #mobileClinics .gridwrapper.greybg.mobile .third-grid{
+        top: 42%;
+        width: 60%;
+    }
+
+    #mobileClinics .rounded-card--inner p{
+        padding-right: 0;
+    }
+
+    #mobileClinics .gridwrapper.greybg.mobile .fifth-grid{
+        top: 73%;
+        width: 100%;
+    }
+
+    #mobileClinics .gridwrapper.greybg.mobile .fourth-grid{
+        right: 5%;
+        top: 97%;
+    }
+    #mobileClinics .pdf-link{
+        margin-top: 30%;
+    }
+
+    #mobileClinics .pdf-link .pdf-detail span {
+        color: black;
+    }
+
+}
+
+@media (max-width: 375px){
+    .rounded-card--inner span{
+        font-size: 36px;
+    }
+    #emergencyServices .gridwrapper.bluebg.emergency .fourth-grid{
+        top: 102%;
+    }
+    #supportEvent .gridwrapper.greybg.support .first-grid{
+        top: 60%;
+    }
+
+    #schoolHealthcare .gridwrapper.bluebg.school .fourth-grid{
+        top: 100.5%;
+    }
+    #facilitiesManagement .gridwrapper.bluebg.healthcare .fifth-grid{
+        top: 75.5%
+    }
+    #facilitiesManagement .gridwrapper.bluebg.healthcare .fourth-grid{
+        top: 87.8%;
+    }
+    #mobileClinics .gridwrapper.greybg.mobile .fifth-grid{
+        top: 70.5%;
+    }
+}
+
+@media (max-width: 320px){
+    .rounded-card--inner p{
+        font-size: 10px;
+    }
+    #messageCEO .pdf-link{
+        margin-top: 30%;
+    }
+
+    #medicalServices .gridwrapper.bluebg.onsite .third-grid{
+        top: 77.1%;
+    }
+
+    #medicalServices .gridwrapper.bluebg.onsite .fourth-grid{
+        top: 84%;
+    }
+
+    #medicalServices .pdf-link{
+        margin-top: 0;
+    }
+
+    #supportEvent .gridwrapper.greybg.support .fifth-grid{
+        top: 31%;
+    }
+
+    #supportEvent .gridwrapper.greybg.support .first-grid{
+        top: 50%;
+    }
+
+    #supportEvent .pdf-link{
+        margin-top: 0;
+    }
+
+    #schoolHealthcare .gridwrapper.bluebg.school .fifth-grid{
+        top: 77%;
+    }
+
+    #schoolHealthcare .gridwrapper.bluebg.school .fourth-grid{
+        top: 90%;
+    }
+
+    #schoolHealthcare .pdf-link{
+        margin-top: 15%;
+    }
+
+    #healthServices .gridwrapper.greybg.occupation .fifth-grid{
+        top: 41%;
+    }
+
+    #healthServices .gridwrapper.greybg.occupation .first-grid{
+        top: 55%;
+    }
+
+    #healthServices .pdf-link{
+        margin-top: 0;
+    }
+
+    #facilitiesManagement .gridwrapper.bluebg.healthcare .fifth-grid{
+        top: 70.5%;
+    }
+
+    #facilitiesManagement .gridwrapper.bluebg.healthcare .fourth-grid{
+        top: 80.8%;
+    }
+
+    #facilitiesManagement .pdf-link{
+        margin-top: 5%;
+    }
+
+    #mobileClinics .gridwrapper.greybg.mobile .fifth-grid{
+        top: 65.5%;
+    }
+
+    #mobileClinics .gridwrapper.greybg.mobile .fourth-grid{
+        top: 82%;
+    }
+
+    #mobileClinics .pdf-link{
+        margin-top: 20%;
+    }
 }
