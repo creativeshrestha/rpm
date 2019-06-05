@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="709ac0f1-8135-47f7-bc88-cea075e744bc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/override.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/override.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/susant.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/susant.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/app.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/app.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +16,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="1351" column="76" selection-start-line="1351" selection-start-column="76" selection-end-line="1351" selection-end-column="76" />
+            <state relative-caret-position="291">
+              <caret line="293" column="46" selection-start-line="293" selection-start-column="40" selection-end-line="293" selection-end-column="46" />
               <folding>
                 <element signature="n#div#1;n#div#0;n#div#0;n#div#15;n#body#0;n#html#0;n#!!top" />
               </folding>
@@ -30,11 +25,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <file leaf-file-name="common.rnc" pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/common.rnc">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="52" lean-forward="true" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
+            <state relative-caret-position="297">
+              <caret line="124" column="18" selection-start-line="124" selection-start-column="18" selection-end-line="124" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -62,11 +57,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="override.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="override.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/override.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="11832">
-              <caret line="696" column="17" lean-forward="true" selection-start-line="696" selection-start-column="17" selection-end-line="696" selection-end-column="17" />
+            <state relative-caret-position="561">
+              <caret line="333" column="25" selection-start-line="333" selection-start-column="25" selection-end-line="333" selection-end-column="25" />
               <folding>
                 <element signature="e#26054#31736#0" />
                 <element signature="e#28292#28322#0" />
@@ -82,7 +77,8 @@
                 <element signature="e#33712#33838#0" />
                 <element signature="e#33840#34938#0" />
                 <element signature="e#34940#35012#0" />
-                <marker date="1559714806764" expanded="true" signature="427:499" ph="..." />
+                <element signature="e#35490#39337#0" />
+                <marker date="1559716845352" expanded="true" signature="427:499" ph="..." />
               </folding>
             </state>
           </provider>
@@ -128,11 +124,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.header</find>
-      <find>partners</find>
-      <find>.message.medicalmanpower</find>
-      <find>.message.medicalmanpower .medicalmanpower--left .message-subtitle</find>
-      <find>.message-subtitle</find>
       <find>on-</find>
       <find>.rounded-card--inner p</find>
       <find>CEO</find>
@@ -158,6 +149,11 @@
       <find>#mobileClinics .gridwrapper.greybg.mobile .fourth-grid</find>
       <find>#medicalServices .gridwrapper.bluebg.onsite .second-grid</find>
       <find>Dr Shamsheer Vayal</find>
+      <find>staff</find>
+      <find>clearNow</find>
+      <find>.gridwrapper.greybg.chairman .first-grid</find>
+      <find>300</find>
+      <find>800</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -180,10 +176,10 @@
         <option value="$PROJECT_DIR$/css/grid.css" />
         <option value="$PROJECT_DIR$/css/susant.css" />
         <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/css/override.css" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/override.css" />
       </list>
     </option>
   </component>
@@ -206,6 +202,11 @@
             <path>
               <item name="rpm_new" type="b2602c69:ProjectViewProjectNode" />
               <item name="rpm_new" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="rpm_new" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rpm_new" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="rpm_new" type="b2602c69:ProjectViewProjectNode" />
@@ -255,7 +256,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="247000" />
+    <option name="totallyTimeSpent" value="2040000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1933" height="1053" extended-state="6" />
@@ -374,30 +375,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/override.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11832">
-          <caret line="696" column="17" lean-forward="true" selection-start-line="696" selection-start-column="17" selection-end-line="696" selection-end-column="17" />
-          <folding>
-            <element signature="e#26054#31736#0" />
-            <element signature="e#28292#28322#0" />
-            <element signature="e#28385#28475#0" />
-            <element signature="e#28539#28664#0" />
-            <element signature="e#28728#28814#0" />
-            <element signature="e#28862#28948#0" />
-            <element signature="e#28981#29011#0" />
-            <element signature="e#31738#32685#0" />
-            <element signature="e#32687#33392#0" />
-            <element signature="e#33394#33480#0" />
-            <element signature="e#33482#33692#0" />
-            <element signature="e#33712#33838#0" />
-            <element signature="e#33840#34938#0" />
-            <element signature="e#34940#35012#0" />
-            <marker date="1559714806764" expanded="true" signature="427:499" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4913">
@@ -426,20 +403,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="64" lean-forward="true" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/common.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="124" column="18" selection-start-line="124" selection-start-column="18" selection-end-line="124" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="1351" column="76" selection-start-line="1351" selection-start-column="76" selection-end-line="1351" selection-end-column="76" />
+        <state relative-caret-position="291">
+          <caret line="293" column="46" selection-start-line="293" selection-start-column="40" selection-end-line="293" selection-end-column="46" />
           <folding>
             <element signature="n#div#1;n#div#0;n#div#0;n#div#15;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+    <entry file="file://$PROJECT_DIR$/css/override.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="52" lean-forward="true" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
+        <state relative-caret-position="561">
+          <caret line="333" column="25" selection-start-line="333" selection-start-column="25" selection-end-line="333" selection-end-column="25" />
+          <folding>
+            <element signature="e#26054#31736#0" />
+            <element signature="e#28292#28322#0" />
+            <element signature="e#28385#28475#0" />
+            <element signature="e#28539#28664#0" />
+            <element signature="e#28728#28814#0" />
+            <element signature="e#28862#28948#0" />
+            <element signature="e#28981#29011#0" />
+            <element signature="e#31738#32685#0" />
+            <element signature="e#32687#33392#0" />
+            <element signature="e#33394#33480#0" />
+            <element signature="e#33482#33692#0" />
+            <element signature="e#33712#33838#0" />
+            <element signature="e#33840#34938#0" />
+            <element signature="e#34940#35012#0" />
+            <element signature="e#35490#39337#0" />
+            <marker date="1559716845352" expanded="true" signature="427:499" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

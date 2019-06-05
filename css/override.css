@@ -309,6 +309,32 @@ header {
 
 /* */
 
+@media (min-width: 769px){
+    #messageChairman .gridwrapper.greybg.chairman .first-grid{
+        right: 26%;
+    }
+
+    #messageChairman .gridwrapper.greybg.chairman .third-grid{
+        right: 10%;
+    }
+
+    #messageChairman .gridwrapper.greybg.chairman .fourth-grid{
+        right: 26%;
+    }
+
+    #atGlance .rounded-card.white .eight800, #atGlance .rounded-card.white .new_2m{
+        margin-top: -15%;
+    }
+
+    #atGlance.onsitemedical .rounded-card.item6 img{
+        width: 50px;
+    }
+
+    #atGlance .rounded-card.white .two009{
+        margin-top: -44.1%;
+    }
+}
+
 .gridwrapper.bluebg.onsite .second-grid {
     border-radius: 0 25px 0 25px;
 }
