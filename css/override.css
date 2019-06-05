@@ -328,8 +328,15 @@ header {
 
 .onsitemedical .gridwrapper.bluebg.onsite .first-grid {
     padding: 20px 35px;
+    z-index: 2;
+}
+.gridwrapper.bluebg.healthcare .first-grid{
+    z-index: 1;
 }
 
+.gridwrapper.bluebg.school .first-grid {
+    z-index: 1;
+}
 /* */
 
 .gridwrapper.greybg.manpower .fourth-grid {
@@ -346,6 +353,7 @@ header {
     padding: 20px 35px;
     width: 218px;
     right: 0;
+    z-index: 1;
 }
 
 .onsitemedical .gridwrapper.bluebg.emergency .second-grid {
