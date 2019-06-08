@@ -26,13 +26,15 @@ $(window).on('load', function() {
     var heightMain = $(window).height() - headerHeight;
 
     if ($(window).width() < 768) {
-        //$(".isotopebanner").css({height: heightMain});
-        $(".megamenu").css({maxHeight: heightMain});
+        $(".desktopMenu").css({'minHeight': heightMain, 'height': heightMain,'overflow-y':hidden});
     }
 });
 
-
 $(document).ready(function() {
+    $('#profilePDF').on('click', function (e) {
+        e.preventDefault();
+        window.location.href = window.location.pathname + "/pdf/RPM%20Corporate%20Profile.pdf";
+    });
 
     var headerHeight = $(".header").height();
     $(".isotopebanner").css({'margin-top': headerHeight});
@@ -48,6 +50,45 @@ $(document).ready(function() {
         $('.navbtn').removeClass('active');
     }
 
+    //mobile section
+    $('#megamenu a').on('click', function (e) {
+        var link = $(this).attr('href');
+        e.preventDefault();
+        var s = link.substr(1);
+        if ($(window).width() < 427) {
+            if ($(`[data-name="${s}"]`).next().hasClass('show')) {
+                // console.log('already open')
+
+                setTimeout(function () {
+                    $('html,body').animate({
+                        scrollTop: $(`[data-name="${s}"]`).offset().top - headerHeight
+                    }, 500, 'linear');
+                    AOS.init();
+
+                    $('#atGlance .rounded-card--inner span em, .numbersCount').counterUp({
+                        delay: 10,
+                        time: 1000
+                    });
+                }, 500);
+            } else {
+
+                $(`[data-name="${s}"]`).trigger('click');
+                AOS.init();
+
+                // $('#atGlance .rounded-card--inner span em, .numbersCount').counterUp({
+                //     delay: 10,
+                //     time: 1000
+                // });
+            }
+        } else {
+            // console.log('bigger');
+        }
+        hidenav();
+    });
+
+
+
+    //
     $('a[href*="#atGlance"]').on('click', function (e) {
         var ccHeight = $("header").height();
         e.preventDefault();
@@ -175,7 +216,7 @@ $('.btn-link').on('click',function(){
     $('.card-header').removeClass('togglered');
     var parent=$(this).parents('.card-header');
     parent.toggleClass('togglered');
-})
+});
 
 $('.accordion').click(function(e) {
     e.preventDefault();
@@ -184,29 +225,17 @@ $('.accordion').click(function(e) {
     $(this).toggleClass('togglered');
     $('.accordion').find('.minusicon').hide();
     $('.accordion').find('.downicon').show();
-
-
     var dataname=$(this).data('name');
     var da="#"+dataname;
-    var ccHeight = $("header").height() + $(this).height() + 15;
-
-    setTimeout(function() {
-        $('html,body').animate({
-            scrollTop: $(da).offset().top - ccHeight
-        }, 500, 'linear');
-    }, 500);
-
-
 
     if ($this.next().hasClass('show')) {
         $this.removeClass('togglered');
-
         $this.next().removeClass('show');
         $this.find('.minusicon').hide();
         $this.find('.downicon').show();
         $this.next().slideUp(350);
 
-        // console.log(ccHeight);
+        AOS.init();
 
 
     } else {
@@ -216,20 +245,24 @@ $('.accordion').click(function(e) {
         $this.find('.minusicon').show();
         $this.find('.downicon').hide();
         $this.next().slideToggle(350);
-        // $this.toggleClass('active');
+
+        AOS.init();
+
+
+
+        $('#atGlance .rounded-card--inner span em, .numbersCount').counterUp({
+            delay: 10,
+            time: 1000
+        });
+
+        var ccHeight = $("header").height() + $(this).height() + 16;
+
+
+        setTimeout(function() {
+            AOS.init();
+            $('html,body').animate({
+                scrollTop: $(da).offset().top - ccHeight
+            }, 500, 'linear');
+        }, 500);
     }
-
-
-    // $('html,body').animate({
-    //     scrollTop: $(this).offset().top - ccHeight
-    // }, 500, 'linear');
-    // return false;
-
-    // var scrollTop = $(".desktophide").scrollTop();
-    // var top = $('.accordion').offset().top;
-    // $("html,body").animate({
-    //     scrollTop: scrollTop + top - ccHeight
-    // }, "fast");
-
-
 });

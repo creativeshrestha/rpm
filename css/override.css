@@ -5,6 +5,12 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+@media (max-width: 768px){
+    body{
+        overflow-x:hidden;
+    }
+}
+
 img {
     height: auto;
 }
@@ -94,8 +100,17 @@ header {
 
 @media (max-width: 768px) {
     #megamenu {
-        overflow-y: scroll;
+        overflow: hidden;
         height: 100%;
+    }
+}
+
+@media (max-width: 420px) {
+    #megamenu ul li a {
+        border-bottom: 1px solid #6b6b6b;
+        border-top: 1px solid #6b6b6b;
+        padding: 8px 0;
+        margin-top: -1px;
     }
 }
 
@@ -1337,10 +1352,6 @@ header {
     }
 }
 
-.togglered {
-    background: #E30613 !important;
-}
-
 .accordion {
     font-family: 'Quicksand', sans-serif;
     font-size: 16px;
@@ -1351,10 +1362,11 @@ header {
     padding: .5rem 1.75rem .5rem .75rem;
     width: 100%;
     border: none;
-    color: white;
+    color: black;
     margin-bottom: 1px;
     text-align: left;
     position: relative;
+    font-weight: 500;
 }
 
 .accordion:after {
@@ -1370,11 +1382,12 @@ header {
     margin-top: -3px;
 }
 
-.accordion.active {
-    background: #333333;
+.accordion.togglered {
+    background: #3a383b;
+    color: white;
 }
 
-.accordion.active:after {
+.accordion.togglered:after {
     background: url(../images/icon_minus.svg) no-repeat;
 }
 
@@ -1755,6 +1768,8 @@ header {
 
     #facilitiesManagement .pdf-link {
         margin-top: 20%;
+        position: relative;
+        z-index: 3;
     }
 
     #mobileClinics .gridwrapper.greybg.mobile .fifth-grid {
@@ -2165,6 +2180,7 @@ header {
     #mobileClinics .gridwrapper.greybg.mobile .third-grid{
         top: 42%;
         width: 60%;
+        height: 156px;
     }
 
     #mobileClinics .rounded-card--inner p{
@@ -2174,6 +2190,7 @@ header {
     #mobileClinics .gridwrapper.greybg.mobile .fifth-grid{
         top: 73%;
         width: 100%;
+        border-radius: 25px 0 25px 0;
     }
 
     #mobileClinics .gridwrapper.greybg.mobile .fourth-grid{
@@ -2216,6 +2233,10 @@ header {
 }
 
 @media (max-width: 320px){
+
+    .rounded-card--inner span{
+        font-size: 32px;
+    }
     .rounded-card--inner p{
         font-size: 10px;
     }
